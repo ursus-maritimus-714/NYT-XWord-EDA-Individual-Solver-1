@@ -24,14 +24,11 @@ The GMS has undeniably improved over time (**Figure 1**), with fairly dramatic i
 IS1 solved N = 1,157 puzzles in the sample period: 230 (19.9%) in 2021, 493 (42.6%) in 2022, and 434 (37.8%) in 2023-2024 (through Jan. 10). IS1's solve profile over time has considerably more volatility than that of the GMS. **Supplmentary Figure 1** shows that this volatility is not likely to be due to coincidental cyclical changes in the difficulty of puzzles, as determined by GMS performance on the same puzzle set. Longer term volatility aside, there was a large amount of improvement in IS1 perfomance on the more difficult later week puzzle days (Thu-Sun), between early Q2 2023 and the end of the sample period. This improvement can be seen in both the top and bottom panels of **Figure 2**. Like the GMS, IS1 also has become more consistent on early week puzzle days (higher, sharper peaks in the most recent density plot), though this doesn't carry through to the later week puzzle days as it does with the GMS.    
 
 **Figure 2. Day-of-Week Specific 10-Puzzle Moving Average and Solve Time Distributions (by 1-Year Interval)**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/566ee85d-57e9-45e3-8515-d395df08e84a)
-*Median[IQR] solve time (m), per puzzle day, per solve year:* 
-
-*2021- Sun:24.8[22.7-29.0], Mon:6.2[5.7-6.7], Tue:7.6[6.8-8.5], Wed:8.5[7.6-10.7], Thu:13.5[11.2-16.2], Fri:14.1[10.9-18.4], Sat:18.2[12.8-22.0]*
-
-*2022- Sun: 25.2[22.2-28.8], Mon: 6.1[5.7-6.6], Tue: 7.0[6.4-8.1], Wed: 9.1[7.9-10.6], Thu: 13.5[11.5-16.1], Fri: 13.6[11.5-16.8], Sat: 17.4[14.3-22.5]*
-
-*2023+- Sun: 21.4[18.4-27.1], Mon: 5.2[4.8-5.7], Tue: 6.2[5.6-7.0], Wed: 8.4[7.1-10.2], Thu: 12.8[10.8-15.8], Fri: 11.4[9.4-15.3], Sat: 15.3[11.0-17.6]*  
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/79b48360-0e3d-4fb9-9266-96aedc512742)
+*<h5>Median[IQR] solve time (m), per puzzle day, per solve year:*<br>
+*2021- Sun: 24.8[22.7-29.0], Mon: 6.2[5.7-6.7], Tue: 7.6[6.8-8.5], Wed: 8.5[7.6-10.7], Thu: 13.5[11.2-16.2], Fri: 14.1[10.9-18.4], Sat: 18.2[12.8-22.0]*<br>
+*2022- Sun: 25.2[22.2-28.8], Mon: 6.1[5.7-6.6], Tue: 7.0[6.4-8.1], Wed: 9.1[7.9-10.6], Thu: 13.5[11.5-16.1], Fri: 13.6[11.5-16.8], Sat: 17.4[14.3-22.5]*<br>
+*2023+- Sun: 21.4[18.4-27.1], Mon: 5.2[4.8-5.7], Tue: 6.2[5.6-7.0], Wed: 8.4[7.1-10.2], Thu: 12.8[10.8-15.8], Fri: 11.4[9.4-15.3], Sat: 15.3[11.0-17.6]*<br>
 
 
 
