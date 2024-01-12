@@ -64,6 +64,13 @@ Along with absolute performance, the degree to which the same puzzles were *rela
 *pre-2023: Sun: .47, Mon: .38, Tue: .48, Wed: .56, Thu: .53, Fri: .50, Sat: .44*<br>
 *2023-24:  Sun: .56, Mon: .38 , Tue: .51 , Wed: .70, Thu: .57, Fri: .63, Sat: .79*<br>
 
+### IS1 Performance By Puzzle Constructor(s)
+
+The high proportion of puzzles by repeat individual constructors or specific constructor teams solved by IS1 (72%) afforded the opportunity to evaluate which constructors IS1 tended to struggle against and which they tended to do relatively well against. A "mean constructor difficulty" measure (mean % difference from 10-puzzle moving average), normalized both for puzzle day and IS1 baseline solve performance, was computed. **Figure 6** shows heatmapping of IS1 performance against the n=50 constructor(s) contributing >=5 puzzles over the sample period. While only 9% of constructor(s) contributed this many puzzles, this group contributed 32% of all puzzles solved. **Fig. 6** also shows this metric for the GMS on the same set of puzzles for the sake of qualitative comparison. Warmer colors (-%) indicate that the solver solves relatively fast against a given constructor when controlling for day-of-week difficulty and recent solver form; cooler colors (+%) indicate the opposite. "Hot" of "cold" constructors for IS1 tended to also be relatively fast or slow, respectively, for GMS as well. However, there was clearly a substantial degree of discordance in terms of specific order and some constructors (e.g., Brad Wiegmann, Byron Walden, Will Nediger) stand out as being "hot" for one solver but "cold" for the other.
+
+Along with mean normalized performance against given constructor(s) shown in **Fig. 6**, a correlational analysis in the direction of assessing the potential predictive value of past performance against constructor(s) on future performance was performed. **Figure 7** shows the correlation between past performance against a given constructor(s) (x-axis) and performance on the next individual puzzle by that constructor(s) (y-axis). This analysis was restricted to only puzzles by the constructor(s) included in **Fig. 6** solved *after* 4 previous puzzles by the same constructor(s) (based on puzzle completion date for IS1 but issue date for GMS).     
+
+**Figure 5. Heatmapping of GMS Performance Against Individual Constructor(s)**
 
 
 ##
