@@ -82,7 +82,8 @@ Along with mean normalized performance against given constructor(s) shown in **F
 
 Many external variables are likely to have an impact on individual solver performance, for the large majority of which data collection is, at best, impractical. Examples include data relevant to how tired, stressed, influenced by substances, or distracted by other sensory stimuli the solver was while working on a puzzle. One external variable that we *are* fortunate to have data on (thanks, once again, to Matt at XWord Stats) is time of day at puzzle completion. **Figure 8** shows IS1's solve peformance by hour of day, overall (black) and by puzzle day (by color). To control for day-specific puzzle difficulty, solve times are expressed as % difference from day-specific 10-puzzle moving averages. IS1 completed most puzzles during the sample period either early in the morning (7-8 AM) or in the evening soon after their release (6 PM ET the evening before for Sun and Mon puzzles; 10 PM ET the evening before for Tue-Sat puzzles). There are no clear trends overall or in specific puzzle days, however for the more difficult puzzle days the small number of fastest solves relative to baseline were in the 10 PM (22:00) hour. Interpretation of this result is difficult because puzzle *start* times are not available. Thus, it can't be distinguished with te available data whether IS1 is a better performer at night or simply finishes easier puzzles before bedtime and leaves harder ones for morning completion.   
 
-**Figure 8. Scatterplots of IS1 Solve Times as Percentage Difference from 10-Puzzle Moving Average by Hour of Completion (Overall and by Puzzle Day)**
+**Figure 8. Scatterplots of IS1 Solve Times as Percentage Difference from 10-Puzzle Moving Average by Hour of Completion**
+
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/0723d060-0db7-424b-9c8a-755977ab7933)
 
 ##
