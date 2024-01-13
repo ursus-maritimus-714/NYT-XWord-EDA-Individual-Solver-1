@@ -78,7 +78,13 @@ Along with mean normalized performance against given constructor(s) shown in **F
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/4ed3fdac-2395-40b3-8765-fc38cde4e219)
 *<h5>The past performance measure on the x-axis was normalized to control for variable puzzle day mix for prior puzzles by given constructor(s). The individual solve time measure on the y-axis was normalized to control for 'recent' puzzle day-specific IS1 (left panel) or GMS (right panel) performance. <br>Pearson correlation coefficient (r): IS1: .15, GMS: .36*
 
-### Individual Solver 1 (IS1) Performance Over Time
+### IS1 Performance by Completion Time of Day
+
+There are any number of external variables that are likely to have an impact on solve performance for a given individual. A number of these will be, at best, extremely challenging to collect data for. Some examples would be how tired, stressed, influenced by substances or distracted by other stimuli the solver was while working a puzzle. One external variable that we are fortunate to have data on that is surely correlated to some of these hard to measure ones is completion time of day (thanks once again to Matt at XWord Stats for this). One limitation to these data per puzzle, however, is that puzzle *start* times are not available. This would make it hard to interpret whether, for ex., a trend toward longer solve times in the morning says something about morning performance or simply is an artifact of a solver tending to start a day's puzzle when it is released the prior evening and taking until the morning to solve the more difficult ones. 
+
+**Figure 8** shows IS1's solve peformance by hour of day, overall (black) and by puzzle day. Data are expressed as % difference from day-specific 10-puzzle moving average, to control for day-specific puzzle difficulty. IS1 completes most puzzles either early in the morning (7-8 AM) or in the evening soon after their release (6 PM ET the evening before for Sun and Mon puzzles; 10 PM ET the evening before for Tue-Sat puzzles). There are not clear trends overall or in specific puzzle days. However, for the more difficult puzzle days, the small number of fastest solves relative to baseline are at 10 PM (22:00). It's hard to distinguish IS1 being a better performer at night from a bias toward starting at night and only finishing easier puzzles before bedtime, but it's clear that IS1 is at least capable of relatively fastest solves at night.      
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/0723d060-0db7-424b-9c8a-755977ab7933)
 
 ##
 **Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance, by Puzzle Day** 
