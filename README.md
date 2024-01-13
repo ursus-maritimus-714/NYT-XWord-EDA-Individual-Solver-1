@@ -76,9 +76,9 @@ Along with mean normalized performance against given constructor(s) shown in **F
 
 **Figure 7. Scatterplots of IS1 and GMS Past Performance Against Individual Constructor(s) Versus 'Next' Individual Puzzle Performance Against the Same Constructor(s)**  
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/4ed3fdac-2395-40b3-8765-fc38cde4e219)
-*<h5>The past performance measure on the x-axis is normalized to control for variable puzzle day mix for prior puzzles by given constructor(s). The individual solve time measure on the y-axis is normalized to control for recent puzzle day-specific IS1 or GMS performance. <br>Pearson correlation coefficient (r): IS1: .15, GMS: .36*
+*<h5>The past performance measure on the x-axis was normalized to control for variable puzzle day mix for prior puzzles by given constructor(s). The individual solve time measure on the y-axis was normalized to control for 'recent' puzzle day-specific IS1 (left panel) or GMS (right panel) performance. <br>Pearson correlation coefficient (r): IS1: .15, GMS: .36*
 
-
+### Individual Solver 1 (IS1) Performance Over Time
 
 ##
 **Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance, by Puzzle Day** 
