@@ -97,13 +97,14 @@ Numerous potentially interesting features pertaining to puzzle grids, clues, and
 
 The rightmost column/bottom row per matrix shows the correlation between IS1 solve times for individual puzzles and a puzzle day-specific, time decay-weighted version of the 10-*prior* (to a given puzzle) puzzle moving average. For both 15x15 puzzles and 21x21 puzzles, this (positive) correlation was stronger than any other measured feature correlation to IS1 solve time. This finding generates a prediction that recent (relative to a puzzle date to be predicted) solver form per puzzle day will be more predictive of performance on a novel puzzle than will be any grid or answer (or clue) feature.         
 
-**Figure 10** through **Figure 21** are companion figures to the correlation heatmapping, and show across all 15x15 puzzle days (black) and by-puzzle-day (colored) scatter plots of features of interest vs raw solve times at the level of individual puzzles (with trend lines indicating aggregate correlation strength). A feature distribution density plot (FDP), per feature, shows puzzle day-specific trends in its distribution. A number of features with strong correlations to IS1 solve time can be seen here to covary with puzzle day. Subsequent predictive modeling outputs will quantify the relative importance of each of these features to puzzle difficulty.
-
-Several general observations with potential relevance to predictive modeling are worth mention here as a primer for looking at the plots below. Firstly, though most features had at least a moderate correlation strength with IS1 solve times across all 15x15 puzzles, at the by-puzzle-day level these correlations were typically stronger for the more difficult puzzle days (Saturday in particular). This finding suggests that there may be an overall difficulty threshold below which the importance of solver aptitude simply overwhelms variability of specific parameters of the puzzles themselves (see discussion above about **Fig. 9**, and also see **Fig. 21**). Secondly, feature correlations for (see figure captions for scatterplots below) the Global Median solver on the identical set of puzzles were uniformly directionally the same as for IS1, but also uniformly were *stronger* than those for IS1. My hunch is that this is related to the more variable rate of by-puzzle-day improvement over time for IS1 relative to the GMS (**see Figs. 1 and 2**), but proving or disproving this hunch  will require running the correlations (per solver) against times adjusted for the day-specific 10-puzzle moving average (stay tuned...).       
-
 **Figure 9. Correlation Heatmapping of IS1 Individual Puzzle Performance vs Grid, Clue, Answer and Past Performance Features**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/4d71482e-580f-43c1-b370-53c916484ce4)
 
+**Figure 10** through **Figure 21** are companion figures to the correlation heatmapping shown in **Fig. 9**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colored), scatterplots of select features of interest vs IS1 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
+
+Though most features had at least a moderate correlation strength with IS1 solve times across all 15x15 puzzles, at the by-puzzle-day level these correlations were typically stronger for the more difficult puzzle days (Sat, in particular). It is very likely that the wider ranges of feature values in later week puzzle days (compare per-day widths in the FDPs or x-axis extents in the scatterplots) is related to this finding. There may be threshold values per feature below/above which the feature's effect is not significant in comparison with the effects of solver aptitude (see discussion above about **Fig. 9**, and also see **Fig. 21**). Early week puzzles may also simply not be difficult enough overall for certain features to have an impact on solve times. This is especially true with respect to 'grid features', as they will always necessarily interact with the difficulty of the content of the clue and/or answer.   
+
+Each figure caption for **Figs. 10-21** compares the correlation strength for a given feature for IS1 with that for the global median solver (GMS) over the same set of puzzles. While GMS corrleations were uniformly directionally the same as for IS1, they were also uniformly *stronger* than those for IS1. My hunch is that this was related to the more variable per-day baseline sole performance of IS1 relative to the GMS (**see Figs. 1 and 2**). Proving or disproving this hunch will require running the correlations (per solver) against times adjusted for each day-specific 10-puzzle moving average (stay tuned...).       
 
 #### Scatterplots for Individual Features vs IS1 Solve Times, with Associated Feature Distribution Density Plots (FDPs)
 
@@ -153,22 +154,26 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = 0.23
 #### *Answer and Clue Content Features*
 **<h4>Figure 15. Number of Fill-in-the-Blank Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/1bc89f8e-ef24-4ee6-a2d4-483a300606f6)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/cfacd65f-9b96-49ed-ba50-a0b4e76d8aef)
 *<h5>IS1 solve times and '# Fill-in-the-Blank Answers' had a weak-to-moderate negative correlation on 15x15 puzzles (r= -0.24).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = -0.27).<br>*
 
 *Taken together, the FDP and scatterplots indicate that most of the strength of this correlation was due to the easiest puzzles (note the rightward FDP peak shift for Mon, even relative to Tue) employing a heavy dose of FITB answers. It will be interesting to see how important this feature is in the modeling phase to prediction of early week solve times, specifically.*
 
+**<h4>Figure 16. Scrabble Average**
 
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/94767623-0470-430f-915b-356394eddf56)
+*<h5>IS1 solve times and 'Scrabble Average' had a weak-to-nonexistant negative correlation on 15x15 puzzles (r= -0.04).<br>
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -0.05).<br>*
 
+*'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. If anything, the opposite was true in practice here and as can be seen in the next few figures there are direct measures of answer rarity that *do* have strong positive correlations to solve times. So this one is a candidate to either be left out of predictive modeling entirely or to be combined with other answer rarity/difficulty measures to generate a useful predictive feature.*
 
+**<h4>Figure 17. Number of Scrabble Illegal Answers**
+*<h5>IS1 solve times and '# Scrabble Illegal' had a weak-to-moderate negative correlation on 15x15 puzzles (r= -0.04).<br>
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -0.05).<br>*
 
+*'# Scrabble Illegal' answers is a proprietary measure of XWord Info that gets at answer rarity more directly than does 'Scrabble Average' (though not as directly as the measures in **Figs. 18 and 19**). Interestingly this moderate positive correlation was seen both across all 15x15 puzzles and within each puzzle day. Also interesting is that, apart from a Monday relative leftward shift in the FDP, the distributions for the other 15x15 puzzle days were highly overlapping. I had assumed that the days with more open squares and longer average answers would also have substantially more answers that are not standard English vocabulary words. This finding suggests that more non-standard vocabulary *alone* may not signify or predict puzzle difficulty.*  
 
-
-**<h4>Figure 15. Number of Scrabble Illegal Answers**
-
-
-*'# Scrabble Illegal' answers is a proprietary measure of XWord Info that gets at answer rarity more directly than does 'Scrabble Average' (though not as directly as the measures in Figs. 16 and 17). Interestingly this moderate positive correlation was seen both across all 15x15 puzzles and within each puzzle day. Also interesting is that, apart from a Monday relative leftward shift in the FDP, the distributions for the other 15x15 puzzle days were highly overlapping. I had assumed that the days with more open squares and longer average answers would also have substantially more answers that are not standard English vocabulary words. This finding suggests that more non-standard vocabulary *alone* may not signify or predict puzzle difficulty.*  
 
 
 ##
