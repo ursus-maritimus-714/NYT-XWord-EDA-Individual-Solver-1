@@ -108,11 +108,19 @@ The rightmost column/bottom row per matrix shows the correlation between IS1 sol
 
 #### *Grid Features*
 
-**Figure 8. Number of Answers**
+**Figure 10. Number of Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Global-Median-Solver/assets/90933302/b3f0b390-92db-4605-aaec-d84d022d475c)
-*<h5>For 15x15 puzzles, there was a strong negative correlation (r= -0.56) between GMST and '# Answers'. More answers typically meant shorter answers (see correlation matrices above), and shorter answers tended to be be more common/easier answers (see 'Average Answer Length' and 'Freshness Factor' analyses below). The correlation strength, and even the directionality thereof, varied across puzzle days. However, the FDP for this feature shows that the toughest puzzle days (Fri and Sat) tended to have the fewest answers (and the Sat trend mirrored the overall 15x15 trend).*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/f98fd6c8-9469-4b58-b0b3-6abc8eb1f3ed)
+*<h5>For 15x15 puzzles, there was a moderately strong negative correlation (r= -0.48) between IS1 solve times and '# Answers'. More answers typically meant shorter answers (see correlation matrices above), and shorter answers tended to be be more common/easier answers (see 'Average Answer Length' and 'Freshness Factor' analyses below). The correlation strength, and even the directionality thereof, varied across puzzle days. However, the FDP for this feature shows that the toughest puzzle days (Fri and Sat) tended to have the fewest answers (and the Sat trend mirrored the overall 15x15 trend).*
 
+**<h4>Figure 11. Number of Open Squares**
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/91fbf57c-da60-402e-8475-181eecc4abaa)
+*<h5>For 15x15 puzzles, there was a moerately strong positive correlation (r= 0.48) between IS1 solve times and '# Open Squares'. '# Open Squares' is a proprietary measure from XWord Info that counts all white squares that are *not* bordered by black squares. '# Open Squares' was strongly positively correlated to 'Average Answer Length' (see matrices above), so it makes sense that more open squares was also positively correlated with solve times. The FDP shows that the most difficult puzzle days (Fri and Sat) had a rightward shift in '# Open Squares' relative to the easier 15x15 puzzle days. A large amount of the overall 15x15 correlation appears to be accounted for by these more difficult puzzles with large numbers (>~80) of open squares.* 
+
+**<h4>Figure 12. Number of Black Squares**
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/d8b635b7-744f-447e-92ec-356486e1e3d1)
+*<h5>For 15x15 puzzles, there was a weak-to-moderate negative correlation (r= -0.31) between IS1 solve times and '# Black Squares'. This relationship was essentially the opposite (albeit a weaker form) of that between solve times and '# Open Squares' (more black squares = shorter answers = easier answers). As with '# Open Squares', the correlation was most apparent at the puzzle day level for the Saturday scatterplots, and Friday and Saturday were prominently shifted away from the earlier week puzzle days in the FDP.*
 
 
 ##
