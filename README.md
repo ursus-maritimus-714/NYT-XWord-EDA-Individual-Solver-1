@@ -88,7 +88,17 @@ Many external variables are likely to have an impact on individual solver perfor
 
 **Figure 8. Scatterplots of IS1 Solve Times as Percentage Difference from 10-Puzzle Moving Average by Hour of Completion**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/0723d060-0db7-424b-9c8a-755977ab7933)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/95021a86-690b-439f-aae3-222e2d540495)
+
+
+
+
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/4d71482e-580f-43c1-b370-53c916484ce4)
+
+
+
+
 
 ##
 **Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance, by Puzzle Day** 
