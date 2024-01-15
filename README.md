@@ -15,7 +15,7 @@ Many analyses included in this summary compare IS1 performance to that of the GM
 
 GMSTs improved over the complete set of puzzles issued between January 1, 2018 and January 13, 2024 (**Figure 1**), with fairly dramatic improvement seen early on for some puzzle days and graded improvement continuing for each puzzle day until the end of the sample period (top panel). The 2-year interval density plots of raw solve time distributions (bottom panels) show that performance on individual puzzle days became more consistent over time (higher peaks with narrower distributions). Because I did not have access to the raw solver data from which the GMSTs were drawn, however, it's not possible to disentangle improvement for individual "early adopters" of Matt's tracking software versus stronger solvers joining the solver pool over time. Note also that GMS performance is tracked in my analyses by puzzle issue date, as I did not have access to GMS puzzle completion dates. It's reasonably safe to assume, however, that the GMS (a different individual solver for most puzzles, presumably) solved in approximately the sequence of puzzle issue. IS1 performance, however, is tracked by puzzle completion data since I *was* able to obtain completion timestamps for my own solves with Matt's assistance.  
 
-**Figure 1. GMS Solve Time 10-Puzzle Moving Averages and Distributions by Puzzle Day (2-Year Issue Date Intervals)**
+**Figure 1. GMS Solve Time 10-Puzzle Moving Averages and Distributions by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/c8408fd1-e509-42ba-a812-c7f0857b9c43)
 
 
@@ -28,12 +28,12 @@ IS1 solved N = 1,160 puzzles in the sample period: 230 (19.8%) in 2021, 493 (42.
 
 IS1's 10-puzzle moving averages for each puzzle day (**Figure 2**; top panel) had considerably more volatility over the IS1 solve period than those of the GMS. **Supplementary Figure 1** shows that this volatility was not likely due to coincidental cyclical changes in the difficulty of puzzles (as determined by GMS performance on the same puzzle set). Longer term volatility aside, there was a large amount of improvement in IS1 performance on the more difficult later week puzzle days (Thu-Sun) between early Q2 2023 and the end of the sample period. This improvement can be seen in both the top and bottom panels of **Fig. 2**, as well as in per-solve year violin plots with swarm plot overlay (**Figure 3**). Like the GMS, IS1 also became more consistent on early week puzzle days (higher, sharper peaks in the most recent density plot; **Fig. 2** bottom panels), though this trend didn't carry through to the later week puzzle days to the extent that it did for the GMS.    
 
-**Figure 2. 10-Puzzle Solve Time Moving Averages and Distributions by Puzzle Day (1-Year Solve Date Intervals)**
+**Figure 2. 10-Puzzle Solve Time Moving Averages and Distributions by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/d86506e4-a537-4592-a762-3d0d98a8ddcb)
 
 
 
-**Figure 3. Violin Plots With Swarm Plot Overlay by Puzzle Day (1-Year Solve Date Intervals)**
+**Figure 3. Violin Plots With Swarm Plot Overlay by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/cb07aba5-babe-4412-8b75-51782b3ee65a)
 *<h5>Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve year. Black lines demarcate quartiles. Swarm plot overlays show individual puzzle raw solve times.* 
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve year:*<br>
