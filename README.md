@@ -219,7 +219,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 *GMS: Sun: .12, Mon: .39, Tue: .22, Wed: .02, Thu: .01, Fri: .09, Sat: .17*<br>
 
 
-##
+
 
 ## Supplementary Figures
 
