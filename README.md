@@ -206,15 +206,35 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .49)
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/e9612353-52ef-41f2-b402-0bef3509458a)
 *<h5>IS1 solve times and 'GMS Adjusted Recent Performance (GMS-ARP)' had a strong positive correlation on 15x15 puzzles (r= .74).<br>
-GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of very strong correlation (r = .81).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of very strong correlation (r = .86).<br>*
 
-To obtain 'GMS-ARP' for a given puzzle the 10 most recent *prior* puzzles from the same puzzle day were averaged after first being decay weighted (10 for the most recent prior puzzle, 9 for the one before that and so on down to a weight of 1 for the 10th prior puzzle). Recent past performance across all 15x15 puzzles for IS1 (and, to an even larger degree, for GMS) by this measure was more strongly correlated to performance on the "next" puzzle than were the specific characteristics of that puzzle.*
+*<h5>To obtain 'GMS-ARP' for a given puzzle the 10 most recent *prior* puzzles from the same puzzle day were averaged after first being decay weighted (10 for the most recent prior puzzle, 9 for the one before that and so on down to a weight of 1 for the 10th prior puzzle). Recent past performance across all 15x15 puzzles for IS1 (and, to an even larger degree, for GMS) by this measure was more strongly correlated to performance on the "next" puzzle than were the specific characteristics of that puzzle.*
+
+*<h5>Very interestingly, correlation strengths for the early week 15x15 days (Mon-Wed) were higher than those for the later week days (see below in caption). This attests to the relative heterogeneity of later week puzzles, and the likely fact that the likelihood of a solver getting stuck in one particular spot for an extended period of time goes way up. I have zero actual evidence for this, but I will further speculate as an experienced solver that Thursday puzzles have the lowest correlation of all, for both IS1 and the GMS, because they are the most heterogeneous of all puzzle days due to the varied gimmicks and tricks employed. Finally, Saturday correlations for both IS1 and GMS do approach those seen in the early week puzzles. My hunch (again with zero proof) here is that this is at least partially related to a smaller set of constructors, specializing in difficult themeless puzzles (e.g., Byron Walden), being employed for that puzzle day.*
+
+*<h5>Correlation Strength by Puzzle Day:*<br>
+*IS1: Sun: .43, Mon: .48, Tue: .41, Wed: .30, Thu: .18, Fri: .28, Sat: .40*<br>
+*GMS: Sun: .12, Mon: .39, Tue: .22, Wed: .02, Thu: .01, Fri: .09, Sat: .17*<br>
 
 
 ##
+
+# Supplementary Figures
+
 **Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance, by Puzzle Day** 
+
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/12d757eb-8280-45b5-aca8-fc90e091d2ce)
 *<h5>For each puzzle completed by IS1, the percentage difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per-puzzle day.*
+
+**Supplementary Figure 2. Scatterplots of Number of Rebus Squares vs IS1 Solve Time, by Puzzle Day**
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/50d0225c-ba28-44b4-8af4-448885d8ee84)
+*<h5>Only Sunday and Thursday had an appreciable '# Rebus Squares', which are squares that must be filled with more than one letter, number or symbol for a given puzzle to be solved. There was a modest positive correlation between '# Rebus Squares' for both of these puzzle days (for both IS1 and the GMS), though a caveat is that the very large number of 0 rebus puzzles makes these correlations hard to interpret (ie, these are not exactly continuous distributions).*<br>
+
+*Correlation Strength by Puzzle Day: IS1: Sun: .23, Thu: .21; GMS: Sun: .32, Thu: .16* 
+
+
+
 
 **<h4>Supplementary Figure 5. Correlation Heatmapping of IS1 Individual Puzzle Performance vs Grid, Answer and Past-Performance Features By Puzzle Day (15x15 Puzzle Days)**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/7a824723-c36b-49b2-ab80-ffae1e9a2888)
