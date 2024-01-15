@@ -221,7 +221,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 ##
 
-# Supplementary Figures
+## Supplementary Figures
 
 **<h4>Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance by Puzzle Day** 
 
