@@ -22,7 +22,7 @@ GMSTs improved over the full 2018-2024 period (**Figure 1**), with fairly dramat
 ## Results
 ### Individual Solver 1 (IS1) Performance Over Time
 
-IS1 solved N = 1,160 puzzles in the sample period: 230 (19.8%) in 2021, 493 (42.5%) in 2022, and 437 (37.7%) in 2023-2024 (through Jan. 13, 2024). The total solve time for IS1 was 10.7 days (2021: 2.2 days; 2022: 4.6 days; 2023/24: 3.8 days). The total solve time for the GMS over this same set of puzzles was 14.6 days.     
+IS1 solved N = 1,160 puzzles in the sample period: 230 (19.8%) in 2021, 493 (42.5%) in 2022, and 437 (37.7%) in 2023/24 (through Jan. 13, 2024). The total solve time for IS1 was 10.7 days (2021: 2.2 days; 2022: 4.6 days; 2023/24: 3.8 days). The total solve time for the GMS over this same set of puzzles was 14.6 days.     
 
 IS1's 10-puzzle moving averages for each puzzle day (**Figure 2**; top panel) had considerably more volatility over the IS1 solve period than those of the GMS. **Supplementary Figure 1** shows that this volatility was not likely due to coincidental cyclical changes in the difficulty of puzzles (as determined by GMS performance on the same puzzle set). Longer term volatility aside, there was a large amount of improvement in IS1 performance on the more difficult later week puzzle days (Thu-Sun) between early Q2 2023 and the end of the sample period. This improvement can be seen in both the top and bottom panels of **Fig. 2**, as well as in per-solve year violin plots with swarm plot overlay (**Figure 3**). Like the GMS, IS1 also became more consistent on early week puzzle days (higher, sharper peaks in the most recent density plot; **Fig. 2** bottom panels), though this trend didn't carry through to the later week puzzle days to the extent that it did for the GMS.    
 
@@ -37,7 +37,7 @@ IS1's 10-puzzle moving averages for each puzzle day (**Figure 2**; top panel) ha
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve year:*<br>
 *2021:    Sun: 24.8[22.7-29.0], Mon: 6.2[5.7-6.7], Tue: 7.6[6.8-8.5], Wed: 8.5[7.6-10.7], Thu: 13.5[11.2-16.2], Fri: 14.1[10.9-18.4], Sat: 18.2[12.8-22.0]*<br>
 *2022:    Sun: 25.2[22.2-28.8], Mon: 6.1[5.7-6.6], Tue: 7.0[6.4-8.1], Wed: 9.1[7.9-10.6], Thu: 13.5[11.5-16.1], Fri: 13.6[11.5-16.8], Sat: 17.4[14.3-22.5]*<br>
-*2023-24: Sun: 21.4[18.4-27.1], Mon: 5.2[4.8-5.7], Tue: 6.2[5.6-7.0], Wed: 8.4[7.1-10.2], Thu: 12.8[10.6-15.8], Fri: 11.4[9.3-15.0], Sat: 15.2[10.8-17.6]*<br>
+*2023/24: Sun: 21.4[18.4-27.1], Mon: 5.2[4.8-5.7], Tue: 6.2[5.6-7.0], Wed: 8.4[7.1-10.2], Thu: 12.8[10.6-15.8], Fri: 11.4[9.3-15.0], Sat: 15.2[10.8-17.6]*<br>
 
 
 ### Individual Solver 1 (IS1) Performance Vs Global Median Solver (GMS) 
