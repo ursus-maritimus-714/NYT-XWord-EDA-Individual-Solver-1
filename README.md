@@ -221,12 +221,12 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 # Supplementary Figures
 
-**Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance, by Puzzle Day** 
+**<h4>Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance, by Puzzle Day** 
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/12d757eb-8280-45b5-aca8-fc90e091d2ce)
 *<h5>For each puzzle completed by IS1, the percentage difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per-puzzle day.*
 
-**Supplementary Figure 2. Scatterplots of Number of Rebus Squares vs IS1 Solve Time, by Puzzle Day**
+**<h4>Supplementary Figure 2. Scatterplots of Number of Rebus Squares vs IS1 Solve Time, by Puzzle Day**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/50d0225c-ba28-44b4-8af4-448885d8ee84)
 *<h5>Only Sunday and Thursday had an appreciable '# Rebus Squares', which are squares that must be filled with more than one letter, number or symbol for a given puzzle to be solved. There was a modest positive correlation between '# Rebus Squares' for both of these puzzle days (for both IS1 and the GMS), though a caveat is that the very large number of 0 rebus puzzles makes these correlations hard to interpret (ie, these are not exactly continuous distributions).*<br>
@@ -238,7 +238,10 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/19057d5f-ef91-4e2c-bd72-670764da0e2e)
 *<h5>Circled squares were virtually non-existant in the tougher (Fri and Sat) puzzles. Their function is to reveal a puzzle theme, and in theory a solver can use this knowledge to "back in" to some full answers. Despite the apparent negative correlation for all 15x15 puzzles, the puzzle days with considerable '# Circles' mostly showed weakly positive correlations. One could speculate here, but it's probably not worth the effort; but there's potential for a small enhancement to modeling on a day-specific basis.*
 
+**<h4>Supplementary Figure 4. Scatterplots of Number of Shaded Squares vs IS1 Solve Time, by Puzzle Day**
 
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/c9be8ffc-07cf-409f-8c96-00abd70ea88b)
+*<h5>Shaded squares, like circled squares, were virtually non-existant in the tougher (Fri and Sat) puzzles. Also like with circled squares, their function is to reveal a puzzle theme and their presence may provide assistance to solvers on clues in which they are embedded. Though most puzzles with shaded squares were within the bottom third of IS1 15x15 puzzle solve times, this is likely mostly due to the fact that they essentially only occured in early week puzzles. As with circles, it can't hurt to include his feature in first-pass modeling and there might be some puzzle day-specific accuracy improvements with its inclusion.* 
 
 
 **<h4>Supplementary Figure 5. Correlation Heatmapping of IS1 Individual Puzzle Performance vs Grid, Answer and Past-Performance Features By Puzzle Day (15x15 Puzzle Days)**
