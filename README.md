@@ -233,6 +233,11 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 *Correlation Strength by Puzzle Day: IS1: Sun: .23, Thu: .21; GMS: Sun: .32, Thu: .16* 
 
+**<h4>Supplementary Figure 3. Scatterplots of Number of Circled Squares vs IS1 Solve Time, by Puzzle Day**
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/19057d5f-ef91-4e2c-bd72-670764da0e2e)
+*<h5>Circled squares were virtually non-existant in the tougher (Fri and Sat) puzzles. Their function is to reveal a puzzle theme, and in theory a solver can use this knowledge to "back in" to some full answers. Despite the apparent negative correlation for all 15x15 puzzles, the puzzle days with considerable '# Circles' mostly showed weakly positive correlations. One could speculate here, but it's probably not worth the effort; but there's potential for a small enhancement to modeling on a day-specific basis.*
+
 
 
 
