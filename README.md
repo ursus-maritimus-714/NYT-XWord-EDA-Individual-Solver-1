@@ -29,7 +29,8 @@ IS1 solved N = 1,160 puzzles in the sample period: 230 (19.8%) in 2021, 493 (42.
 IS1's 10-puzzle moving averages for each puzzle day (**Figure 2**; top panel) had considerably more volatility over the IS1 solve period than those of the GMS. **Supplementary Figure 1** shows that this volatility was not likely due to coincidental cyclical changes in the difficulty of puzzles (as determined by GMS performance on the same puzzle set). Longer term volatility aside, there was a large amount of improvement in IS1 performance on the more difficult later week puzzle days (Thu-Sun) between early Q2 2023 and the end of the sample period. This improvement can be seen in both the top and bottom panels of **Fig. 2**, as well as in per-solve year violin plots with swarm plot overlay (**Figure 3**). Like the GMS, IS1 also became more consistent on early week puzzle days (higher, sharper peaks in the most recent density plot; **Fig. 2** bottom panels), though this trend didn't carry through to the later week puzzle days to the extent that it did for the GMS.    
 
 **Figure 2. 10-Puzzle Solve Time Moving Averages and Distributions by Puzzle Day**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/d86506e4-a537-4592-a762-3d0d98a8ddcb)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/2150e145-c709-479b-b576-f5cc715beed2)
+
 
 
 
