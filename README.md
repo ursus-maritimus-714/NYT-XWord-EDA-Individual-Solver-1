@@ -31,7 +31,7 @@ IS1's 10-puzzle moving averages for each puzzle day (**Figure 2**; top panel) ha
 **Figure 2. 10-Puzzle Solve Time Moving Averages and Distributions by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/2150e145-c709-479b-b576-f5cc715beed2)
 
-
+**Figure 3** shows IS1's solve time performance trajectory in 1-year solve interval violin plots with swarm plot overlays. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve year. Black lines on the violin plots demarcate solve time quartiles per puzzle day. Swarm plot overlays per-puzzle day show individual puzzle raw solve times.**  
 
 
 **Figure 3. Violin Plots With Swarm Plot Overlay by Puzzle Day**
