@@ -17,7 +17,7 @@ GMSTs improved over the complete set of puzzles issued between January 1, 2018 a
 
 **Figure 1. GMS Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/8ca04881-041e-464a-a820-391064244ad6)
-*<h5>GMS end-of-sample period 10-puzzle moving average of solve time (m), per-puzzle day:*<br>
+*<h5>GMS Final (wk of Jan. 15, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
 *Sun: 29.8, Mon: 5.7, Tue: 7.8, Wed: 12.0, Thu: 15.5, Fri: 17.9, Sat: 20.9*<br>
 
 
@@ -32,12 +32,13 @@ IS1's per-puzzle day 10-puzzle moving averages across the sample period are show
 
 **Figure 2. Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/2150e145-c709-479b-b576-f5cc715beed2)
+*<h5>IS1 Final (wk of Jan. 15, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
 *Sun: 18.4, Mon: 4.6, Tue: 6.0, Wed: 7.4, Thu: 10.3, Fri: 10.4, Sat: 11.0*<br>
 
 **Figure 3** shows IS1's solve time performance trajectory in violin plots with swarm plot overlays, broken out by 1-year solve date intervals. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve interval. Black lines on the violin plots demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.**  
 
-**Figure 3. Violin Plots With Swarm Plot Overlay by Puzzle Day**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/cb07aba5-babe-4412-8b75-51782b3ee65a)
+**Figure 3. Solve Time Overview by Puzzle Day: Violin Plots With Swarm Plot Overlay**
+
 *<h5>* 
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve year:*<br>
 *2021:    Sun: 24.8[22.7-29.0], Mon: 6.2[5.7-6.7], Tue: 7.6[6.8-8.5], Wed: 8.5[7.6-10.7], Thu: 13.5[11.2-16.2], Fri: 14.1[10.9-18.4], Sat: 18.2[12.8-22.0]*<br>
@@ -229,10 +230,10 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 ## Supplementary Figures
 
-**<h4>Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance by Puzzle Day** 
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/12d757eb-8280-45b5-aca8-fc90e091d2ce)
-*<h5>For each puzzle completed by IS1, the percentage difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per-puzzle day.*
+**<h4>Supplementary Figure 1. IS2 10-Puzzle Solve Time Moving Averages Adjusted by GMS Performance, by Puzzle Day** 
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/55100838-157a-48d0-a3d4-68a844ab2282)
+*<h5>For each puzzle completed by IS1, % difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per puzzle day.*
 
 **<h4>Supplementary Figure 2. Scatterplots of Number of Rebus Squares vs IS1 Solve Time by Puzzle Day**
 
