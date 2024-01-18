@@ -39,17 +39,17 @@ IS1's per-puzzle day 10-puzzle moving averages across the sample period are show
 **Figure 3** shows IS1's solve time performance trajectory in violin plots with swarm plot overlays, broken out by 1-year solve date intervals. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve interval. Black lines on the violin plots demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.  
 
 **Figure 3. Solve Time Overview by Puzzle Day: Violin Plots With Swarm Plot Overlay**
-
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/c4fc8be9-747e-4cf5-8c24-25e7ffff1d2a)
 *<h5>* 
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve year:*<br>
 *2021:    Sun: 24.8[22.7-29.0], Mon: 6.2[5.7-6.7], Tue: 7.6[6.8-8.5], Wed: 8.5[7.6-10.7], Thu: 13.5[11.2-16.2], Fri: 14.1[10.9-18.4], Sat: 18.2[12.8-22.0]*<br>
 *2022:    Sun: 25.2[22.2-28.8], Mon: 6.1[5.7-6.6], Tue: 7.0[6.4-8.1], Wed: 9.1[7.9-10.6], Thu: 13.5[11.5-16.1], Fri: 13.6[11.5-16.8], Sat: 17.4[14.3-22.5]*<br>
-*2023/24: Sun: 21.4[18.4-27.1], Mon: 5.2[4.8-5.7], Tue: 6.2[5.6-7.0], Wed: 8.4[7.1-10.2], Thu: 12.8[10.6-15.8], Fri: 11.4[9.3-15.0], Sat: 15.2[10.8-17.6]*<br>
+*2023/24: Sun: 20.9[18.5-27.1], Mon: 5.2[4.8-5.7], Tue: 6.2[5.6-7.0], Wed: 8.4[7.1-10.2], Thu: 12.8[10.6-15.8], Fri: 11.4[9.3-15.0], Sat: 15.2[10.8-17.6]*<br>
 
 
 ### Individual Solver 1 (IS1) Performance Vs Global Median Solver (GMS) 
 
-The next series of figures directly compare IS1 solve performance to that of the GMS over the set of all IS1 solves. For these analyses, IS1 solves were broken into two solve date intervals: pre-2023 (n=723; 62.3% of total solves); 2023/24: n=437; 37.7%). Per puzzle day, in the figures relavent to these analyses, pre-2023 solves are represented by lighter-colored points and regression lines and 2023/24 solves by darker-colored ones. 
+The next series of figures directly compare IS1 solve performance to that of the GMS over the same puzzle set. For these analyses, IS1 solves were broken into two solve intervals: pre-2023 (n=723; 62.2% of total solves); 2023/24: n=440; 37.8%). Per puzzle day, in the figures relavent to these analyses, pre-2023 solves are represented by lighter-colored points and regression lines and 2023/24 solves by darker-colored ones. 
 
 The next series of figures explicitly compare IS1 solve performance versus that of the GMS over the same set of puzzles. **Figure 4** shows per-puzzle day scatterplots of raw GMSTs (x-axis) versus IS1 solve times (y-axis). Points falling on the dashed diagonal line represent identical raw solve times for IS1 and GMST on a given puzzle, points above and below this line represent "wins" for the GMS and IS1, respectively. Win %s for IS1 were high across puzzle days pre-2023, but increased for the majority of puzzle days in 2023/24. The lowest IS1 win % for both time periods was for Monday puzzles, which aligns with my own sense that the more pure mechanical speed comes into play, the more of a relative disadvantage I am at versus the majority of skilled solvers (though my Mon win rate and mean solve time advantage both did improve substantially in 2023/24). Regression lines show that there was a relatively high degree of correlation in solve times between IS1 and GMST (see the next figure for a recent solver form-normalized take on this), with more of a downward shift away from the dashed diagonal indicating a greater magnitude of performance advantage for IS1 over the GMS. 
 
