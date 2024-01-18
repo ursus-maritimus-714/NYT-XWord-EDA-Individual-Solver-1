@@ -35,6 +35,7 @@ IS1's per-puzzle day 10-puzzle moving averages across the sample period are show
 *<h5>IS1 Final (wk of Jan. 15, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
 *Sun: 18.4, Mon: 4.6, Tue: 6.0, Wed: 7.4, Thu: 10.3, Fri: 10.4, Sat: 11.0*<br>
 
+###
 **Figure 3** shows IS1's solve time performance trajectory in violin plots with swarm plot overlays, broken out by 1-year solve date intervals. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve interval. Black lines on the violin plots demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.**  
 
 **Figure 3. Solve Time Overview by Puzzle Day: Violin Plots With Swarm Plot Overlay**
