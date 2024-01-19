@@ -236,12 +236,12 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/55100838-157a-48d0-a3d4-68a844ab2282)
 *<h5>For each puzzle completed by IS1, % difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per puzzle day.*
 
-**<h4>Supplementary Figure 2. Scatterplots of Number of Rebus Squares vs IS1 Solve Time by Puzzle Day**
+**<h4>Supplementary Figure 2. Number of Rebus Squares vs IS1 Solve Time by Puzzle Day**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/50d0225c-ba28-44b4-8af4-448885d8ee84)
-*<h5>Only Sunday and Thursday had an appreciable '# Rebus Squares', which are squares that must be filled with more than one letter, number or symbol for a given puzzle to be solved. There was a modest positive correlation between '# Rebus Squares' for both of these puzzle days (for both IS1 and the GMS), though a caveat is that the very large number of 0 rebus puzzles makes these correlations hard to interpret (ie, these are not exactly continuous distributions).*<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/13a4d05e-cdcd-43f3-b767-3e012ae6feb2)
+*<h5>Only Sunday and Thursday had an appreciable '# Rebus Squares' for IS1 solves. Rebus squares are those that must be filled with more than one letter, number or symbol for a given puzzle to be solved. There was a modest positive correlation between '# Rebus Squares' for both of these puzzle days (for both IS1 and the GMS), though a caveat is that the very large number of 0 rebus puzzles makes these correlations hard to interpret (ie, these are not exactly continuous distributions).*<br>
 
-*Correlation Strength by Puzzle Day: IS1: Sun: .23, Thu: .21; GMS: Sun: .32, Thu: .16* 
+*Correlation Strength by Puzzle Day: IS1: Sun: .23, Thu: .21; GMS: Sun: .33, Thu: .16* 
 
 **<h4>Supplementary Figure 3. Scatterplots of Number of Circled Squares vs IS1 Solve Time by Puzzle Day**
 
