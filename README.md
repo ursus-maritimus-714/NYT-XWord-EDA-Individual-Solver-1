@@ -156,28 +156,29 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 **<h4>Figure 14. Number of Cheater Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/b2f8d622-205e-4b46-b868-45d7826a9823)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/30078574-067e-476c-bad5-84e0a1038874)
 *<h5>IS1 solve times and '# Cheater Squares' had a weak positive correlation on 15x15 puzzles (r= .19).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = .23).<br>*
 
-*Cheater Squares, by definition, are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name), and it can be seen that large numbers of them (say, >10) almost always appear on the difficult puzzle days. Interestingly, within a given puzzle day, however, it's clear that puzzles with larger numbers of them tended to be easier for IS1. So the seeming paradox between the overall 15x15 trend and the individual puzzle day trends is likely related to the competing effects of cheater squares allowing trickier constructions, but also reducing the number of answers and answer lengths overall. Incidentally, the reason they were only rarely seen in odd numbers is the only rarely-violated NYT requirement for grid symmetry.*
+*Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name), and it can be seen in the FDP that large numbers of them (say, >10) almost always appeared on the difficult puzzle days. Within most puzzle days, it's clear that puzzles with larger numbers of these squares tended to be easier for IS1 (also true for IS2 and the GMS). So the seeming paradox between the overall 15x15 trend and the individual puzzle day trends is likely related to the competing effects on solve times of an increase in '# Cheater Squares' allowing trickier constructions, but also simultaneously reducing '# Answers' and 'Average Answer Length'. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
+
 
 #### *Answer and Clue Content Features*
 **<h4>Figure 15. Number of Fill-in-the-Blank Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/cfacd65f-9b96-49ed-ba50-a0b4e76d8aef)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/fbf543f0-8ecf-4d30-8fa9-9b5903d24d77)
 *<h5>IS1 solve times and '# Fill-in-the-Blank Answers' had a weak-to-moderate negative correlation on 15x15 puzzles (r= -.24).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.27).<br>*
 
-*Taken together, the FDP and scatterplots indicate that most of the strength of this correlation was due to the easiest puzzles (note the rightward FDP peak shift for Mon, even relative to Tue) employing a heavy dose of FITB answers. It will be interesting to see how important this feature is in the modeling phase to prediction of early week solve times, specifically.*
+*Taken together, the FDP and scatterplots indicate that most of the strength of this correlation was due to the easiest puzzles (note the rightward FDP peak shift for Mon, even relative to Tue) employing a heavy dose of FITB answers. It's also noteworthy that the most difficult puzzle days (Thu and Fri) clearly made less use of FITB answers than the other puzzle days. It will be interesting to see how important this feature is in the modeling phase to prediction of early week solve times, specifically.*
 
 **<h4>Figure 16. Scrabble Average**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/94767623-0470-430f-915b-356394eddf56)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/0f17fc1c-6b0d-4ca9-9a43-1e64dda563c0)
 *<h5>IS1 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation on 15x15 puzzles (r= -.04).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.05).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.06).<br>*
 
-*'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. If anything, the opposite was true in practice here and as can be seen in the next few figures there are direct measures of answer rarity that *do* have strong positive correlations to solve times. So this one is a candidate to either be left out of predictive modeling entirely or to be combined with other answer rarity/difficulty measures to generate a useful predictive feature.*
+*'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. If anything, the opposite was true in practice here. Furthermore, as can be seen in the next series of figures, there are direct measures of answer rarity that *do* have strong positive correlations to solve times. So this one is a candidate to either be left out of predictive modeling entirely or to be combined with other answer rarity/difficulty measures to generate a useful predictive feature.*
 
 **<h4>Figure 17. Number of Scrabble Illegal Answers**
 
