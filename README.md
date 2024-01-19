@@ -243,14 +243,14 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 *Correlation Strength by Puzzle Day: IS1: Sun: .23, Thu: .21; GMS: Sun: .33, Thu: .16* 
 
-**<h4>Supplementary Figure 3. Scatterplots of Number of Circled Squares vs IS1 Solve Time by Puzzle Day**
+**<h4>Supplementary Figure 3. Number of Circled Squares vs IS1 Solve Time by Puzzle Day**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/19057d5f-ef91-4e2c-bd72-670764da0e2e)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/20c01532-2187-43d9-b082-27f16de9b16b)
 *<h5>Circled squares were virtually non-existent in the tougher (Fri and Sat) puzzles. Their function is to reveal a puzzle theme, and in theory a solver can use this knowledge to "back in" to some full answers. Despite the apparent negative correlation for all 15x15 puzzles, the puzzle days with considerable '# Circles' mostly showed weakly positive correlations. One could speculate here, but it's probably not worth the effort; but there's potential for a small enhancement to modeling on a day-specific basis.*
 
-**<h4>Supplementary Figure 4. Scatterplots of Number of Shaded Squares vs IS1 Solve Time by Puzzle Day**
+**<h4>Supplementary Figure 4. Number of Shaded Squares vs IS1 Solve Time by Puzzle Day**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/c9be8ffc-07cf-409f-8c96-00abd70ea88b)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/ba86fbcf-fe07-411f-a990-c342068a8933)
 *<h5>Shaded squares, like circled squares, were virtually non-existent in the tougher (Fri and Sat) puzzles. Also like with circled squares, their function is to reveal a puzzle theme and their presence may provide assistance to solvers on clues in which they are embedded. Though most puzzles with shaded squares were within the bottom third of IS1 15x15 puzzle solve times, this is likely mostly due to the fact that they essentially only occured in early week puzzles. As with circles, it can't hurt to include his feature in first-pass modeling and there might be some puzzle day-specific accuracy improvements with its inclusion.* 
 
 
