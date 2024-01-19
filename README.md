@@ -206,7 +206,7 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 **<h4>Figure 20. Number of Wordplay Clues**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/d03dc516-79e5-4417-91d9-93df352c8304)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/ce0ce028-45a0-43b2-bd9b-52721bc688b1)
 *<h5>IS1 solve times and '# Wordplay Clues' had a moderate positive correlation on 15x15 puzzles (r= .39).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .49).<br>*
 
@@ -214,20 +214,18 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .49)
 
 #### *Past Performance Features*
 
-**<h4>Figure 21. GMS Adjusted Recent Performance**
+**<h4>Figure 21. IS1 Adjusted Recent Performance**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/e9612353-52ef-41f2-b402-0bef3509458a)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/83442ce0-8b0c-44b5-8323-2e9d73a5896b)
 *<h5>IS1 solve times and 'GMS Adjusted Recent Performance (GMS-ARP)' had a strong positive correlation on 15x15 puzzles (r= .74).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of very strong correlation (r = .86).<br>*
 
-*<h5>To obtain 'GMS-ARP' for a given puzzle the 10 most recent *prior* puzzles from the same puzzle day were averaged after first being decay weighted (10 for the most recent prior puzzle, 9 for the one before that and so on down to a weight of 1 for the 10th prior puzzle). Recent past performance across all 15x15 puzzles for IS1 (and, to an even larger degree, for GMS) by this measure was more strongly correlated to performance on the "next" puzzle than were the specific characteristics of that puzzle.*
-
-*<h5>Very interestingly, correlation strengths for the early week 15x15 days (Mon-Wed) were higher than those for the later week days (see below in caption). This attests to the relative heterogeneity of later week puzzles, and the likely fact that the likelihood of a solver getting stuck in one particular spot for an extended period of time goes way up. I have zero actual evidence for this, but I will further speculate as an experienced solver that Thursday puzzles have the lowest correlation of all, for both IS1 and the GMS, because they are the most heterogeneous of all puzzle days due to the varied gimmicks and tricks employed. Finally, Saturday correlations for both IS1 and GMS do approach those seen in the early week puzzles. My hunch (again with zero proof) here is that this is at least partially related to a smaller set of constructors, specializing in difficult themeless puzzles (e.g., Byron Walden), being employed for that puzzle day.*
+*<h5>Correlation strengths for the early week 15x15 days (Mon-Wed) were higher than those for the later week days, and this was also true in the analyses for IS1 and the GMS. This trend likely is related to the relative heterogeneity of later week puzzles, both in terms of tricks/gimmicks employed and also in general difficulty. The lowest puzzle day correlation for both this solver and the GMS and IS1 was for Thursday, arguably the most heterogenous puzzle day of all as there's almost always a gimmick involved (e.g., rebuses of various flavors). Interestingly, Friday and Saturday both had substantially lower correlations for the other individual solver analyzed (IS2) than did Thursday. This is another indicaton that optimally modeling individual solver performance, as compared to modeling the 'typical' solver, will be a somewhat bespoke task.*
 
 *<h5>Correlation Strength by Puzzle Day:*<br>
-*IS1: Sun: .43, Mon: .48, Tue: .41, Wed: .30, Thu: .18, Fri: .28, Sat: .40*<br>
-*GMS: Sun: .12, Mon: .39, Tue: .22, Wed: .02, Thu: .01, Fri: .09, Sat: .17*<br>
-
+*IS1: Sun: .43, Mon: .49, Tue: .42, Wed: .30, Thu: .19, Fri: .29, Sat: .40*<br>
+*GMS: Sun: .62, Mon: .54, Tue: .51, Wed: .44, Thu: .37, Fri: .40, Sat: .39*<br>
+*These GMS by-puzzle day correlations are taken from the entire GMS sample in the GMS-specific analysis*
 
 
 
