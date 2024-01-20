@@ -74,7 +74,7 @@ Along with comparison of raw solve performance between IS1 and GMS, the degree t
 *<h5> IS1-GMS Quadrant Percentage by IS1 solve period: Lower Left(LL)/Upper Right(UR)/Upper Left(UL)/Lower Right(LR)*<br>
 *LL: Relatively Easy for Both IS1 & GMS/ UR: Hard for IS1 & GMS/ UL: Easy for GMS-Hard for IS1/ LR: Easy for IS1-Hard for GMS*<br> 
 *pre-2023: All: 41.3/25.2/15.5/18.0, Sun: 41.1/31.6/12.6/14.7, Mon: 38.2/22.5/20.6/18.6, Tue: 43.9/25.2/12.1/18.7, Wed: 41.1/25.20/16.8/16.8, Thu: 44.6/27.7/11.9/15.8, Fri: 42.4/21.2/18.2/18.2, Sat: 37.5/23.1/16.3/23.1*<br>
-*2023/24:  All: 39.5/28.4/14.3/17.7, Sun: 46.4/23.2/20.3/10.1, Mon: 52.5/11.9/22.0/13.6, Tue: 54.2/20.3/18.6/6.8, Wed: 46.6/31.0/13.8/8.6, Thu: 53.1/15.6/18.8/12.5, Fri: 55.6/23.9/19.0/1.6,<br> Sat: 46.6/36.2/13.8/3.4*<br>
+*2023/24:  All: 39.5/28.4/14.3/17.7, Sun: 34.3/28.6/18.6/18.6, Mon: 38.7/22.6/14.5/24.2, Tue: 42.4/22.0/17.0/18.6, Wed: 39.7/34.5/12.1/13.8, Thu: 39.1/20.3/17.2/23.4, Fri: 45.5/31.9/12.1/10.6,<br> Sat: 37.7/39.3/8.2/14.8*<br>
 
 
 
