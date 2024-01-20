@@ -66,17 +66,15 @@ Along with comparison of raw solve performance between IS1 and GMS, the degree t
 
 **Figure 5. IS2 vs GMS: Comparison of Baseline-Adjusted Solve Performance by Puzzle Day and Solve Interval**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/e305a08e-d6d9-4339-b9a3-8fb856830e74)
+*<h5> IS1-GMS Quadrant Percentage by IS1 solve period: Lower Left(LL)/Upper Right(UR)/Upper Left(UL)/Lower Right(LR)*<br>
+*LL: Relatively Easy for Both IS1 & GMS/ UR: Hard for IS1 & GMS/ UL: Easy for GMS-Hard for IS1/ LR: Easy for IS1-Hard for GMS*<br> 
+*pre-2023: All: 41.3/25.2/15.5/18.0, Sun: 41.1/31.6/12.6/14.7, Mon: 38.2/22.5/20.6/18.6, Tue: 43.9/25.2/12.1/18.7, Wed: 41.1/25.20/16.8/16.8, Thu: 44.6/27.7/11.9/15.8,<br> Fri: 42.4/21.2/18.2/18.2, Sat: 37.5/23.1/16.3/23.1*<br>
+*2023/24:  All: 39.5/28.4/14.3/17.7, Sun: 34.3/28.6/18.6/18.6, Mon: 38.7/22.6/14.5/24.2, Tue: 42.4/22.0/17.0/18.6, Wed: 39.7/34.5/12.1/13.8, Thu: 39.1/20.3/17.2/23.4,<br> Fri: 45.5/31.9/12.1/10.6,  Sat: 37.7/39.3/8.2/14.8*<br>
+
 *<h5>Overall, correlations between baseline-normalized IS1 and GMS solve times were moderately-to-strongly positive, with greater strength for most puzzle days in the more recent solve interval.*<br>
 *IS1-GMS Correlation (Pearson r) of 10-puzzle moving average-adjusted solve difficulty by IS1 solve interval:*<br>
 *pre-2023: All: .47, Sun: .46, Mon: .37, Tue: .43, Wed: .55, Thu: .55, Fri: .47, Sat: .43*<br>
 *2023/24:  All: .61, Sun: .55, Mon: .44, Tue: .43, Wed: .64, Thu: .57, Fri: .64, Sat: .74*<br>
-
-*<h5> IS1-GMS Quadrant Percentage by IS1 solve period: Lower Left(LL)/Upper Right(UR)/Upper Left(UL)/Lower Right(LR)*<br>
-*LL: Relatively Easy for Both IS1 & GMS/ UR: Hard for IS1 & GMS/ UL: Easy for GMS-Hard for IS1/ LR: Easy for IS1-Hard for GMS*<br> 
-*pre-2023: All: 41.3/25.2/15.5/18.0, Sun: 41.1/31.6/12.6/14.7, Mon: 38.2/22.5/20.6/18.6, Tue: 43.9/25.2/12.1/18.7, Wed: 41.1/25.20/16.8/16.8, Thu: 44.6/27.7/11.9/15.8, Fri: 42.4/21.2/18.2/18.2, Sat: 37.5/23.1/16.3/23.1*<br>
-*2023/24:  All: 39.5/28.4/14.3/17.7, Sun: 34.3/28.6/18.6/18.6, Mon: 38.7/22.6/14.5/24.2, Tue: 42.4/22.0/17.0/18.6, Wed: 39.7/34.5/12.1/13.8, Thu: 39.1/20.3/17.2/23.4, Fri: 45.5/31.9/12.1/10.6,<br> Sat: 37.7/39.3/8.2/14.8*<br>
-
-
 
 ### IS1 Performance By Puzzle Constructor(s)
 
