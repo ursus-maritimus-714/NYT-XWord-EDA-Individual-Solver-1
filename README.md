@@ -184,19 +184,19 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
 
 **<h4>Figure 16. Scrabble Average**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/0f17fc1c-6b0d-4ca9-9a43-1e64dda563c0)
-*<h5>IS1 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation on 15x15 puzzles (r= -.04).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.06).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/d7fa4d12-644a-4273-a36c-e817ae13cb5a)
+*<h5>IS1 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation on 15x15 puzzles (r= -.05).<br>
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.07).<br>*
 
 *'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. If anything, the opposite was true in practice here. Furthermore, as can be seen in the next series of figures, there are direct measures of answer rarity that *do* have strong positive correlations to solve times. So this one is a candidate to either be left out of predictive modeling entirely or to be combined with other answer rarity/difficulty measures to generate a useful predictive feature.*
 
 **<h4>Figure 17. Number of Scrabble Illegal Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/936199e6-5b78-4a07-8e2d-110135b6bccd)
-*<h5>IS1 solve times and '# Scrabble Illegal' had a weak positive correlation on 15x15 puzzles (r= .15).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = .19).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/090e245e-5887-432f-a25b-27615d32798f)
+*<h5>IS1 solve times and '# Scrabble Illegal' had a weak positive correlation on 15x15 puzzles (r= .13).<br>
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = .18).<br>*
 
-*'# Scrabble Illegal' answers is a proprietary measure of XWord Info that gets at answer rarity more directly than does 'Scrabble Average' (though not as directly as the measures in **Figs. 18 and 19**). Interestingly, this (modest) positive correlation was seen both across all 15x15 puzzles and within each puzzle day (save for Fri). Also interesting is that, apart from a Monday relative leftward shift in the FDP, the distributions for the other 15x15 puzzle days were highly overlapping. I had assumed that the days with more open squares and longer average answers would also have substantially more answers that are not standard English vocabulary words. This finding suggests that more non-standard vocabulary *alone* may not signify or predict puzzle difficulty.*  
+*'# Scrabble Illegal' answers is a proprietary measure of XWord Info that gets at answer rarity more directly than does 'Scrabble Average' (though not as directly as the measures in **Figs. 18 and 19**). Interestingly, the distributions for 15x15 puzzle days in the FDP were highly overlapping, other than a leftward shift for the easy puzzle days (Mon and Tue) that appears to account for the overall 15x15 puzzles (modest) positive correlation. I had assumed that the days with higher 'Open Squares' and 'Average Answer Length' would also have had substantially proportionally more answers that were not standard English vocabulary words. There were also not discernable trends for correlation strength within the more difficult puzzle days across the range of '# Scrabble Illegal' values. Taken together, these findings suggest that more non-standard vocabulary *alone* may not signify or predict puzzle difficulty.*  
 
 **<h4>Figure 18. Number of Unique Answers**
 
