@@ -18,7 +18,7 @@ GMSTs improved over the complete set of puzzles (N=2,212) issued between January
 **Figure 1. GMS Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/a01d25d9-995d-4fae-82b8-043fa6cb9337)
-*<h5>GMS Final (wk of Jan. 15, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
+*<h5>GMS Final (as of Jan. 21, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
 *Sun: 28.7, Mon: 5.7, Tue: 7.8, Wed: 12.0, Thu: 15.6, Fri: 17.8, Sat: 21.0*<br>
 
 
@@ -247,6 +247,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 *<h5>For each puzzle completed by IS1, % difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per puzzle day.*
 
 **<h4>Supplementary Figure 2. Correlation Heatmapping of IS1 Individual Puzzle Performance vs Grid, Answer and Past-Performance Features by Puzzle Day (15x15 Puzzle Days)**
+
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/d0342cfc-b3a9-43dc-9e2d-e66c557a0d79)
 
 **<h4>Supplementary Figure 3. Number of Rebus Squares vs IS1 Solve Time by Puzzle Day**
