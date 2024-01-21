@@ -32,7 +32,7 @@ IS1's per-puzzle day 10-puzzle moving averages across the sample period are show
 
 **Figure 2. Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/929272ef-d918-404e-a3d8-953a0500892c)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/69a440bc-ba7e-41b6-8166-ddce5f3870a1)
 *<h5>IS1 Final (as of Jan. 21, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
 *Sun: 18.7, Mon: 4.6, Tue: 6.0, Wed: 7.5, Thu: 10.8, Fri: 10.6, Sat: 11.6*<br>
 
@@ -224,7 +224,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .49)
 
 **<h4>Figure 21. IS1 Adjusted Recent Performance**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/83442ce0-8b0c-44b5-8323-2e9d73a5896b)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/32baa7fb-f457-4df1-95f2-d04b99bbb5ba)
 *<h5>IS1 solve times and 'GMS Adjusted Recent Performance (GMS-ARP)' had a strong positive correlation on 15x15 puzzles (r= .74).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of very strong correlation (r = .86).<br>*
 
@@ -241,7 +241,8 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 
 **<h4>Supplementary Figure 1. IS2 10-Puzzle Solve Time Moving Averages Adjusted by GMS Performance, by Puzzle Day** 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/ff6e1f9b-4105-4d5f-a787-edd4b72311a8)
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/9dbe5d07-fb06-4896-a1cf-7f9550319a20)
 *<h5>For each puzzle completed by IS1, % difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per puzzle day.*
 
 **<h4>Supplementary Figure 2. Number of Rebus Squares vs IS1 Solve Time by Puzzle Day**
