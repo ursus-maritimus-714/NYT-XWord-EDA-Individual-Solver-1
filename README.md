@@ -117,7 +117,7 @@ The rightmost column/bottom row per matrix shows the correlation between IS1 sol
 
 **Figure 9. Correlation Heatmapping of IS1 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/f7431181-c421-4b5b-85c8-36e40cb4a1ff)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/e3709a67-826c-4e7f-94c2-078e1692fdd3)
 *<h5>Correlation heatmaps derived from N=804 15x15 (left panel) and N=134 21x21 (right panel) puzzles solved by IS1 from 2022-2024.*
 
 ###
