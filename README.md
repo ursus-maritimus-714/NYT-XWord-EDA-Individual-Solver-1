@@ -154,7 +154,7 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 *<h5>IS1 solve times and '# Black Squares' had a weak-to-moderate negative correlation on 15x15 puzzles (r= -.29).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = -.38).<br>*
 
-*This relationship was essentially the opposite (albeit a weaker form) of that between solve times and '# Open Squares' (more black squares = shorter answers = easier answers). Both Friday and Saturday were strongly left-shifted in the FDP, which suggests that most of the overall 15x15 puzzle negative correlation is due to the most difficult days tending to have relatively few black squares. For IS1, the within-puzzle day correlations were variable in both strength and directionality, though the Saturday negative correlation was nearly as strong as the overall 15x15 correlation.*
+*This relationship was essentially the opposite (albeit a weaker form) of that between solve times and '# Open Squares' (more black squares = shorter answers = easier answers). Both Friday and Saturday were strongly left-shifted in the FDP, which suggests that most of the overall 15x15 puzzle negative correlation was due to the most difficult days tending to have relatively few black squares. For IS1, the within-puzzle day correlations were variable in both strength and directionality, though the Saturday negative correlation was nearly as strong as the overall 15x15 correlation.*
 
 **<h4>Figure 13. Average Answer Length**
 
@@ -166,11 +166,11 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 **<h4>Figure 14. Number of Cheater Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/30078574-067e-476c-bad5-84e0a1038874)
-*<h5>IS1 solve times and '# Cheater Squares' had a weak positive correlation on 15x15 puzzles (r= .19).<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/298be7c2-af89-408e-8552-1b063cb44b53)
+*<h5>IS1 solve times and '# Cheater Squares' had a weak positive correlation on 15x15 puzzles (r= .20).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = .23).<br>*
 
-*Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name), and it can be seen in the FDP that large numbers of them (say, >10) almost always appeared on the difficult puzzle days. Within most puzzle days, it's clear that puzzles with larger numbers of these squares tended to be easier for IS1 (also true for IS2 and the GMS). So the seeming paradox between the overall 15x15 trend and the individual puzzle day trends is likely related to the competing effects on solve times of an increase in '# Cheater Squares' allowing trickier constructions, but also simultaneously reducing '# Answers' and 'Average Answer Length'. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
+*Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name), and it can be seen in the FDP that large numbers of them (say, >10) almost always appeared on the difficult puzzle days (Fri and Sat). The lack of strong within-day correlations for those more difficult puzzle days, however, makes me skeptical that there's a strong causal impact on solve time. This is in contrast to features like 'Average Answer Length' and '# Open Squares', where there were reasonably strong Saturday correlations in the same direction as the overall 15x15 correlations. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
 
 
 #### *Answer and Clue Content Features*
