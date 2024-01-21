@@ -98,11 +98,11 @@ The next correlational analysis was aimed at assessing the potential predictive 
 
 ### IS1 Performance by Completion Time of Day
 
-Many external variables are likely to have an impact on individual solver performance, for the large majority of which data collection would be very difficult. Examples include data relevant to how tired, stressed, influenced by caffeine and other substances, or distracted by other sensory stimuli the solver was while working on a given puzzle. One external variable that we *are* fortunate to have data on (thanks, once again, to Matt at XWord Stats) is time of day at puzzle completion. **Figure 8** shows IS1's solve performance by hour of day, overall (black) and by puzzle day (by color). To control for day-specific puzzle difficulty, solve times are expressed as % difference from puzzle day-specific recent performance baseline (RPB). IS1 completed most puzzles during the sample period either early in the morning (7-8 AM; 35% of all solves) or in the evening between 6-10 PM (52% of all solves). The most notable trend in IS1's data in terms of time of completion was that a disproportionate number of "extremely fast" solves relative to day-specific baseline (>=50% faster than 10-day moving average) took place in the 10 PM hour. This included 9/77 (11.7%) of solves in the 10 PM hour, but only 30/1090 (2.8%) solves at all other hours. Nonetheless, interpretation of this result is still difficult because puzzle *start* times were not available. Thus, it can't be distinguished with the available data whether IS1 was a better performer at night or simply finished easier puzzles before bedtime and left harder ones for morning completion. To this end, nearly all of the extremely fast 10 PM solves were for new Friday or Saturday puzzles released the evening before at exactly 10 PM. An additional caveat is that all solve times were recorded with respect to the US Eastern Time Zone, and there is no indication for puzzles completed in other time zones.        
+Many external variables are likely to have an impact on individual solver performance, for the large majority of which data collection would be very difficult. Examples include data relevant to how tired, stressed, influenced by caffeine and other substances, or distracted by other sensory stimuli the solver was while working on a given puzzle. One external variable that we *are* fortunate to have data on (thanks, once again, to Matt at XWord Stats) is time of day at puzzle completion. **Figure 8** shows IS1's solve performance by hour of day, overall (black) and by puzzle day (by color). To control for day-specific puzzle difficulty, solve times are expressed as % difference from puzzle day-specific recent performance baseline (RPB). IS1 completed most puzzles during the sample period either early in the morning (7-8 AM; 35% of all solves) or in the evening between 6-10 PM (52% of all solves). The most notable trend in IS1's data in terms of time of completion was that a disproportionate number of "extremely fast" solves relative to day-specific baseline (>=50% faster than 10-day moving average) took place in the 10 PM hour. This included 9/77 (11.7%) of solves in the 10 PM hour, but only 30/1091 (2.7%) solves at all other hours. Nonetheless, interpretation of this result is still difficult because puzzle *start* times were not available. Thus, it can't be distinguished with the available data whether IS1 was a better performer at night or simply finished easier puzzles before bedtime and left harder ones for morning completion. To this end, nearly all of the extremely fast 10 PM solves were for new Friday or Saturday puzzles released the evening before at exactly 10 PM. An additional caveat is that all solve times were recorded with respect to the US Eastern Time Zone, and there is no indication for puzzles completed in other time zones.        
 
-**Figure 8. Baseline-Adjusted Solve Times by Hour of Completion**
+**Figure 8. Recent Performance Baseline-Adjusted Solve Times by Hour of Completion**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/aaf02ac9-df26-4541-ae41-6e4cac00bfb5)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/1f7d224b-d325-4b8b-ad80-8196b0ede6a2)
 *<h5>Times are all US Eastern Time Zone, adjusted for Daylight Savings Time as necessary.*
 
 ### Correlations of IS1 Performance on Individual Puzzles to Puzzle-Specific Features and Recent Performance
@@ -115,8 +115,8 @@ The rightmost column/bottom row per matrix shows the correlation between IS1 sol
 
 **Figure 9. Correlation Heatmapping of IS1 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/42f56fe3-f29d-4432-9521-2381202637ab)
-*<h5>Correlation heatmaps derived from N=804 15x15 (left panel) and N=133 21x21 (right panel) puzzles solved by IS1 from 2022-2024.*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/f7431181-c421-4b5b-85c8-36e40cb4a1ff)
+*<h5>Correlation heatmaps derived from N=804 15x15 (left panel) and N=134 21x21 (right panel) puzzles solved by IS1 from 2022-2024.*
 
 ###
 **Figure 10** through **Figure 21** are companion figures to the correlation heatmapping shown in **Fig. 9**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colored), scatterplots of select features of interest vs IS1 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
@@ -264,6 +264,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 
 **<h4>Supplementary Figure 5. Correlation Heatmapping of IS1 Individual Puzzle Performance vs Grid, Answer and Past-Performance Features by Puzzle Day (15x15 Puzzle Days)**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/7a824723-c36b-49b2-ab80-ffae1e9a2888)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/d0342cfc-b3a9-43dc-9e2d-e66c557a0d79)
+
 
 
