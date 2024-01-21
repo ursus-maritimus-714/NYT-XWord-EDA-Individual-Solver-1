@@ -113,12 +113,12 @@ Numerous potentially interesting features pertaining to puzzle grids, clues, and
 
 The rightmost column/bottom row per matrix shows the correlation between IS1 solve times for individual puzzles and puzzle day-specific recent performance baseline (RPB). For both 15x15 puzzles and 21x21 puzzles, this (positive) correlation was stronger than any other measured feature correlation to IS1 solve time. This finding generates a prediction that recent (relative to a puzzle date to be predicted) solver form per puzzle day will be more predictive of performance on a novel puzzle than will be any individual grid, clue or answer feature.
 
-*Note*: As is clear in **Fig. 9**, RPB had the strongest correlation to individual solve times of any feature evaluated by a considerable degree. As such, there was a concern that shifts in baseline solve speed could overwhelm or mask correlations with puzzle-specific features. But normalizing raw solve times (e.g., with RPB) cancels out cross-puzzle day trends that I am interested in identifying prior to the modeling stage. As such, I arrived at a compromise in which I removed all solves from the first solve interval (2021; n=230), which reduced baseline volatility across the solve pool to a considerable degree and allowed me to keep raw solve times as the y-axis variable across these analyses. 
-
-**Figure 9. Correlation Heatmapping of IS1 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
+ **Figure 9. Correlation Heatmapping of IS1 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/e3709a67-826c-4e7f-94c2-078e1692fdd3)
 *<h5>Correlation heatmaps derived from N=804 15x15 (left panel) and N=134 21x21 (right panel) puzzles solved by IS1 from 2022-2024.*
+
+*Note*: As is clear in **Fig. 9**, RPB had the strongest correlation to individual solve times of any feature evaluated by a considerable degree. As such, there was a concern that shifts in baseline solve speed could overwhelm or mask correlations with puzzle-specific features. But normalizing raw solve times (e.g., with RPB) cancels out cross-puzzle day trends that I was interested in identifying prior to the modeling stage. As such, I arrived at a compromise in which I removed all solves from the first solve interval (2021; n=230), which reduced baseline volatility across the solve pool to a considerable degree and allowed me to keep raw solve times as the y-axis variable across these analyses.*
 
 ###
 **Figure 10** through **Figure 21** are companion figures to the correlation heatmapping shown in **Fig. 9**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colored), scatterplots of select features of interest vs IS1 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
