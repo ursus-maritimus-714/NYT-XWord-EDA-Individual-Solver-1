@@ -241,7 +241,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 ## Supplementary Figures
 
-**<h4>Supplementary Figure 1. IS2 10-Puzzle Solve Time Moving Averages Adjusted by GMS Performance, by Puzzle Day** 
+**<h4>Supplementary Figure 1. IS1 10-Puzzle Solve Time Moving Averages Adjusted by GMS Performance, by Puzzle Day** 
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/9dbe5d07-fb06-4896-a1cf-7f9550319a20)
 *<h5>For each puzzle completed by IS1, % difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per puzzle day.*
