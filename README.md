@@ -77,7 +77,7 @@ Along with comparison of raw solve performance between IS1 and GMS, the degree t
 *2023/24:  All: 39.6/28.3/14.6/17.6, Sun: 35.2/28.2/18.3/18.3, Mon: 38.7/22.6/14.5/24.2, Tue: 42.4/22.0/17.0/18.6, Wed: 40.7/33.9/11.9/13.6, Thu: 38.5/21.5/16.9/23.1,<br> Fri: 44.8/31.3/13.4/10.4, Sat: 37.1/38.7/9.7/14.5*<br>
 
 *<h5>Overall, correlations between baseline-normalized IS1 and GMS solve times were moderately-to-strongly positive, with greater strength for most puzzle days in the more recent solve interval.*<br>
-*IS1-GMS Correlation (Pearson r) of 10-puzzle moving average-adjusted solve difficulty by IS1 solve interval:*<br>
+*IS1-GMS Correlation (Pearson r) of recent performance baseline(RPB)-adjusted solve difficulty by IS1 solve interval:*<br>
 *pre-2023: All: .47, Sun: .46, Mon: .37, Tue: .43, Wed: .55, Thu: .55, Fri: .47, Sat: .43*<br>
 *2023/24:  All: .61, Sun: .55, Mon: .44, Tue: .43, Wed: .64, Thu: .59, Fri: .64, Sat: .74*<br>
 
