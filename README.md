@@ -70,7 +70,7 @@ Along with comparison of raw solve performance between IS1 and GMS, the degree t
 **Figure 5. IS1 vs GMS: Comparison of Baseline-Adjusted Solve Performance by Puzzle Day and Solve Interval**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/b82c2ea9-c70a-46ab-8d8e-bb359bf01f67)
-*<h5> IS1-GMS Quadrant Percentage by IS1 solve period: Lower Left(LL)/Upper Right(UR)/Upper Left(UL)/Lower Right(LR)*<br>
+*<h5> IS1-GMS Quadrant % by IS1 solve period:*<br>
 *LL: Relatively Easy for Both IS1 & GMS/ UR: Hard for IS1 & GMS/ UL: Easy for GMS-Hard for IS1/ LR: Easy for IS1-Hard for GMS*<br> 
 *pre-2023: All: 41.3/25.2/15.5/18.0, Sun: 41.1/31.6/12.6/14.7, Mon: 38.2/22.5/20.6/18.6, Tue: 43.9/25.2/12.1/18.7, Wed: 41.1/25.20/16.8/16.8, Thu: 44.6/27.7/11.9/15.8,<br> Fri: 42.4/21.2/18.2/18.2, Sat: 37.5/23.1/16.3/23.1*<br>
 *2023/24:  All: 39.6/28.7/14.3/17.4, Sun: 35.2/28.2/18.3/18.3, Mon: 38.1/23.8/14.3/23.8, Tue: 43.3/21.7/16.7/18.3, Wed: 41.7/33.3/11.7/13.3, Thu: 37.9/22.7/16.7/22.7,<br> Fri: 44.8/31.3/13.4/10.4, Sat: 37.1/40.3/8.1/14.5*<br>
