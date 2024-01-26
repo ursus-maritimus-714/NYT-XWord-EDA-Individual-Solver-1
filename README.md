@@ -143,11 +143,11 @@ Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles
 
 **<h4>Figure 11. Number of Open Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/26664f13-c4d1-4672-9ded-1f4836cc72c5)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/a50c6e7e-6d11-4378-a4c7-63e1c6362777)
 *<h5>IS1 solve times and '# Open Squares' had a moderately strong positive correlation on 15x15 puzzles (r= .47).<br>
-GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .61).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .60).<br>*
 
-*'# Open Squares' is a proprietary measure from XWord Info that counts all white squares that are *not* bordered by black squares. '# Open Squares' was strongly positively correlated to 'Average Answer Length' (see matrices above), so it makes sense that a greater '# Open Squares' was also positively correlated with solve times. The FDP shows that the most difficult puzzle days (Fri and Sat) had a rightward shift in '# Open Squares' relative to the easier 15x15 puzzle days. A large amount of the overall 15x15 correlation for IS1 appears to be accounted for by these more difficult puzzles with large numbers (>~80) of open squares.* 
+*'# Open Squares' is a proprietary measure from XWord Info that counts all white squares that are *not* bordered by black squares. '# Open Squares' was strongly positively correlated to 'Average Answer Length' (see matrices above), so it makes sense that a greater '# Open Squares' was also positively correlated with solve times. The FDP shows that the most difficult puzzle days (Fri and Sat) had a rightward shift in '# Open Squares' relative to the easier 15x15 puzzle days. A large amount of the overall 15x15 correlation for IS1 appears to be accounted for by these more difficult puzzles with large numbers (>~80) of open squares. The positive correlation for Saturday, approximating the strength of the overall 15x15 positive correlation, is an indication that this feature will likely have some independent predictive value in the modeling phase (see prefacing text to this section).* 
 
 **<h4>Figure 12. Number of Black Squares**
 
