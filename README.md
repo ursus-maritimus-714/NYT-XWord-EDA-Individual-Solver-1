@@ -135,11 +135,11 @@ Each figure caption for **Figs. 10-21** compares the correlation strength for a 
 
 **Figure 10. Number of Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/8b3d8765-a18d-4a2e-b640-126e91dfc864)
-*<h5>Individual Solver 1 (IS1) solve times and '# Answers' had a moderately strong negative correlation on 15x15 puzzles (r= -.48).<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/f56752d0-bc9b-4d34-9cc4-cd7414c53060)
+*<h5>Individual Solver 1 (IS1) solve times and '# Answers' had a moderately strong negative correlation for 15x15 puzzles (r= -.48).<br>
 Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles was considerably stronger (r = -.62).<br>*
 
-*More answers typically meant shorter answers (see correlation matrices above), and shorter answers tended to be more common/easier answers (see 'Average Answer Length' and 'Freshness Factor' analyses below). Aligned with this relationship, the FDP for this feature shows that the toughest puzzle days (Fri and Sat) tended to have the fewest answers. The relatively strong *positive* correlations seen for the early week puzzle days (also seen for Mon for IS2 and GMS) suggest that, below a particular per-clue/answer difficulty threshold, merely having to read more clues to solve the puzzle may penalize the solver more they are rewarded for avoiding longer answers.*
+*More answers typically meant shorter answers (see correlation matrices above), and shorter answers tended to be more common/easier answers (see 'Average Answer Length' and 'Freshness Factor' analyses below). Aligned with this relationship, the FDP for this feature shows that the toughest puzzle days (Fri and Sat) tended to have the fewest answers. Additionally, moderately strong reverse sign (positive) correlations were seen for the early week puzzle days (Mon-Wed). This finding suggests that, below a particular per-clue/answer difficulty threshold mostly only attained in later week (Thu-Sat) puzzles, the time penalty incurred by having to read relatively more clues is greater than the time savings from encountering relatively fewer longer answers.*
 
 **<h4>Figure 11. Number of Open Squares**
 
