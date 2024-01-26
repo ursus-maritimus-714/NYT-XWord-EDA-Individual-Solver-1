@@ -167,11 +167,11 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 **<h4>Figure 14. Number of Cheater Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/298be7c2-af89-408e-8552-1b063cb44b53)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/6a5c2dac-4d27-4e60-b8a9-029a5815cf48)
 *<h5>IS1 solve times and '# Cheater Squares' had a weak positive correlation on 15x15 puzzles (r= .20).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = .23).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = .24).<br>*
 
-*Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name), and it can be seen in the FDP that large numbers of them (say, >10) almost always appeared on the difficult puzzle days (Fri and Sat). The lack of strong within-day correlations for those more difficult puzzle days, however, makes me skeptical that there's a strong causal impact on solve time. This is in contrast to features like 'Average Answer Length' and '# Open Squares', where there were reasonably strong Saturday correlations in the same direction as the overall 15x15 correlations. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
+*Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name). It can be seen in the FDP that large numbers of them (say, >10) almost always appeared on the difficult puzzle days (Fri and Sat), which accounts for the (modest) positive correlation across all 15x15 puzzles. For the GMS (see full GMS analysis linked in Introduction) there was some degree of reverse sign (negative) correlation seen within each individual puzzle day. For IS1, this was also true for several puzzle days, most notably Saturday. This raises the possibility of "diminishing returns" on '# Cheater Squares'; they may help make constructions "trickier" up to a point, but beyond that point they have a net effect of speeding solvers up simply by lowering the number of fill squares (a la high '# Black Squares'). Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
 
 
 #### *Answer and Clue Content Features*
