@@ -135,7 +135,7 @@ Each figure caption for **Figs. 10-21** compares the correlation strength for a 
 
 **Figure 10. Number of Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/aa1f750c-7d4e-4dab-b283-aef94cbff31e)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/231a323d-41be-4222-b3bf-867151f63318)
 *<h5>Individual Solver 1 (IS1) solve times and '# Answers' had a moderately strong negative correlation for 15x15 puzzles (r= -.47).<br>
 Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles was considerably stronger (r = -.61).<br>*
 
