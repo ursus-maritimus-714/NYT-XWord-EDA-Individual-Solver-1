@@ -238,20 +238,21 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .49)
 *<h5>IS1 next raw solve time and IS1 'Recent Performance Baseline (RPB)' had a strong positive correlation for 15x15 puzzles (r= .74).<br>
 GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reaching the level of very strong correlation (r = .87).<br>*
 
-*<h5>The all 15x15 puzzles correlation for this feature was considerably stronger than that for any puzzle feature. The implication is that time decay-time weighted IS1 recent past performance (RPB over the 20 day-specific puzzles previous to a given solve) will likely have more predictive value for the next IS1 raw solve time than will any single puzzle, clue or answer feature. Not all puzzle days were created equally, however, with regard to correlational strength (and, potentially, predictive power) of RPB and next raw solve time for this solver. Monday (r=.51) having an very strong correlation relative to the other 15x15 puzzle days was unsurprising, given how few "degrees of freedom" there are in the easiest puzzles. By a considerable amount, the lowest puzzle day-level correlation for IS1 next raw solve time with RPB was for Thursday (.15). This is perhaps unsurprising, since Thursday had a large degree of heterogeneity, with nearly all puzzles on that day involving a gimmick or trick of some variety (including rebuses of various flavors; see Supp. Fig. 3). Thursday also had the second lowest puzzle day correlation for the other individual solver (IS2; see link to analysis in Introduction to this summary), indicating that this may generalize in the solver pool to at least some degree.* 
-
-*It is noteworthy, however, that the lowest correlation for the GMS was for Saturday (.22), with Thursday coming in as only the second lowest correlation (.35). My suspicion is that this largely related to the volatility of the Saturday solver pool that the GMS was drawn from. Because Saturday was considerably more difficult than the other puzzle days, there may have been both a lower N to draw from for any given puzzle as well as a much more variable roster of puzzle completers. Of course, there may also have been a substantial contribution to the relatively low Saturday correlation for the GMS from the heterogeneity of Saturday puzzles (e.g., typically wide feature value ranges) and the high likelihood of middle-of-the-pack solvers getting "stuck" for extended stretches on one or several tough clues or answers.*
-
 *<h5> Next raw solve time and 'RPB' Correlation Strength by Solver (IS1 or GMS) and Puzzle Day:*<br>
 *IS1: Sun: .44, Mon: .51, Tue: .39, Wed: .32, Thu: .15, Fri: .32, Sat: .35*<br>
 *GMS: Sun: .55, Mon: .59, Tue: .49, Wed: .39, Thu: .35, Fri: .40, Sat: .22*<br>
 
+*<h5>The all 15x15 puzzles correlation for this feature was considerably stronger than that for any puzzle feature (**Figs. 10-20**). The implication is that time decay-time weighted IS1 recent past performance (RPB over the 20 day-specific puzzles previous to a given solve) will likely have more predictive value for the next GMS raw solve time than any single puzzle, clue or answer feature.* 
+
+*Not all puzzle days were created equally, however, with regard to correlational strength (and, potentially, predictive power) of RPB and next raw solve time. Monday (r=.51) having a higher correlation relative to the other 15x15 puzzle days was unsurprising, given how few "degrees of freedom" there were in the easiest puzzles. On the other side of the spectrum, the lowest puzzle day correlation by a large margin was for Thursday (r=.15). Thursday puzzles had a large degree of heterogeneity, with nearly all puzzles on that day involving a "trick" of some variety (including rebuses of various flavors; see Supp. Fig. 2). Thursday came in as the day with the lowest correlation for IS2 (see analysis linked in Introduction) and the second lowest correlation for the GMS as well, so variability in performance on that puzzle day due to outsized heterogeneity of puzzle difficulty and gimmickry may generalize across the solver pool.* 
+
+For the GMS, Saturday (r=.22) stood out as having a particularly low correlation between RPB and the next raw solve time. My suspicion is that this largely related to the volatility of the Saturday solver pool that the GMS was drawn from. As the most difficult puzzle day virtually every week, the Saturday solver pool may have had both a lower N to draw from for each individual puzzle as well as a much more variable roster of puzzle completers than the other puzzle days. Substantial contributions to the relatively low Saturday correlation for the GMS may have also been due to the heterogeneity of Saturday puzzles (ie, characteristically wide feature value ranges) and the high likelihood of middle-of-the-pack solvers getting "stuck" for extended stretches on one or several tough clues or answers.*
 
 ## Supplementary Figures
 
 **<h4>Figure S1. IS1 10-Puzzle Solve Time Moving Averages Adjusted by GMS Performance, by Puzzle Day** 
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/31caf7c5-2f7c-483f-8917-6c8a9d5b4a54)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/e15257e2-86b0-47d8-9a01-72482088a732)
 *<h5>For each puzzle completed by IS1, % difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per puzzle day.*
 
 **<h4>Figure S2. Correlation Heatmapping of IS1 Individual Puzzle Performance vs Grid, Answer and Past-Performance Features by Puzzle Day (15x15 Puzzle Days)**
@@ -268,12 +269,12 @@ GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reachin
 
 **<h4>Figure S4. Number of Circled Squares vs IS1 Solve Time by Puzzle Day**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/2e2455de-9565-43a6-9eb8-cf37dac8c583)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/24726e85-5345-4b37-86f7-b19a3154b4f1)
 *<h5>Circled squares were virtually non-existent in the tougher (Fri and Sat) puzzles. The modest negative correlation seen across all 15x15 puzzle days (-.12) is attributable to the fact that most 15x15 puzzles with circles appeared early in the week. The smattering of puzzles with circles on Sunday almost all fell in the middle of the solve time range regardless of "# Circles", indicating that this feature didn't likely have a major impact on solve times.*
 
 **<h4>Figure S5. Number of Shaded Squares vs IS1 Solve Time by Puzzle Day**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/3ba59f70-c579-437f-9399-934836b65834)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/39720d54-2e61-4954-a440-5e2d482a31bd)
 *<h5>Shaded squares, like circled squares, were virtually non-existent on the tougher (Fri and Sat) puzzle days. Also like with circled squares, their function is to reveal a puzzle theme and their presence may provide assistance to solvers on clues in which they are embedded. Most puzzles with shaded squares were within the bottom third of IS1 15x15 puzzle solve times, most likely due to shaded squares almost exclusively showing up only in early week puzzles. Also as with '# Circles', the smattering of Sunday puzzles almost all fell in the middle of the solve time range regardless of "# Shaded Squares", indicating that this feature also didn't likely have a major impact on solve times.* 
 
 
