@@ -206,11 +206,11 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
    
 **<h4>Figure 18. Number of Unique Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/f54d872b-371d-4796-910d-ee156fe9aa05)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/5c33b890-74a4-4cc2-846d-16ced7cafb75)
 *<h5>IS1 solve times and '# Unique Answers' had a weak-to-moderate positive correlation for 15x15 puzzles (r= .36).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of moderate correlation (r = .42).<br>*
 
-*<h5>A unique answer is defined here as one that does not appear in any other NYT crossword puzzle in either the Shortz or pre-Shortz eras (either before or after the puzzle release date). The (albeit modest) strength of the all 15x15 puzzle day correlation was related to the easiest puzzle day (Monday) having a leftward shift in the FDP while the most difficult puzzle days (Fri and Sat) had rightward shifts. Given the relatively low correlations and the results shown in the next figure, uniqueness is perhaps an overly stringent criterion with which to define answer rarity. However, as evidenced in the all 15x15 puzzles scatterplot, there may still be some use for this feature in the predictive modeling phase when values reach both extremes of the range*
+*<h5>A unique answer is defined here as one that does not appear in any other NYT crossword puzzle in either the Shortz or pre-Shortz eras (either before or after the puzzle release date). The moderate strength of the all 15x15 puzzle day correlation was related to the easiest puzzle day (Monday) having a leftward shift in the FDP while the most difficult puzzle days (Fri and Sat) had rightward shifts. The strongest within-puzzle day (15x15) correlation was for Saturday, which was also the only 15x15 puzzle day with a significant number of puzzles with >10 unique answers. Though Monday puzzles with >~5 '#Unique Answers' were rare, there was still a relatively strong positive correlation for that puzzle day, with puzzles on the extremes of that day's feature value range driving the rleationship. Thus, although uniqueness is perhaps an overly stringent criterion to capture answer unusualness, at the extremes of the per day value range it does appear that this feature was associated with slower solves on easy and difficult puzzles alike for this solver.*
 
 **<h4>Figure 19. Freshness Factor**
 
