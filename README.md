@@ -224,11 +224,11 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 **<h4>Figure 20. Number of Wordplay Clues**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/dff8d098-ce79-42d6-b72d-a5bc76e0a80a)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/74fcf9f4-2775-4edb-a45a-3541742e0c1d)
 *<h5>IS1 solve times and '# Wordplay Clues' had a moderate positive correlation for 15x15 puzzles (r= .39).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .49).<br>*
 
-*<h5>'# Wordplay' clues is an (admittedly) somewhat subjective measure that I have manually evaluated and calculated clue-by-clue across the entire puzzle sample completed by IS1. The FDP for this feature had some interesting properties, including the clear result that later week (Thu-Sat) puzzles indeed had a larger allocation of 'trickier' clues than early week puzzles. The was also a prominent leftward shift for Monday puzzles, though with a strong second peak aligned with the Tuesday peak. Taken together, these early and late week distribution offsets were likely related to the moderate overall positive correlation across all 15x15 puzzles. The rare early week (Mon-Wed) puzzles with a relatively large '# Wordplay' clues clearly mostly had slower IS1 solve times, which makes intuitive sense in the context of how straightforward those puzzles generally were. Past Tuesday, however, there were only weakish within-puzzle day correlations for this feature. This suggests that there may have been an overall difficulty threshold that largely dictated the impact that '# Wordplay Clues' might have had on solve speed.* 
+*<h5>'# Wordplay' clues is an (admittedly) somewhat subjective measure that I have manually evaluated and calculated clue-by-clue across the entire puzzle sample completed by IS1. The FDP for this feature had some interesting properties, including the clear result that later week (Thu-Sat) puzzles indeed had a larger allocation of 'trickier' clues than early week puzzles. There was also a prominent leftward shift for Monday puzzles, though with a strong second peak aligned with the Tuesday peak. Taken together, these early and late week distribution offsets were related to the moderate overall positive correlation across all 15x15 puzzles. The majority of individual puzzle days showed at least a weak positive correlation as well, with Tuesday standing out with a stronger correlation. This hints that, at least at the low and high ends of the feature value range at a given difficulty level, '# Wordplay' may have some value to predictive modeling of solve times.* 
 
 #### *Past Performance Features*
 
