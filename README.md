@@ -120,8 +120,8 @@ One additional note on data inclusion time range: 2021 solves (n=230) have been 
 
 **Figure 9. Correlation Heatmapping of IS1 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/236c37c5-2854-44b7-9a79-78eb9217fb30)
-*<h5>Correlation heatmaps derived from N=813 15x15 (left panel) and N=135 21x21 (right panel) puzzles solved by IS1 from 2022-2024.*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/1284afa3-327f-4fbd-80c9-bc266ad0411d)
+*<h5>Correlation heatmaps derived from N=829 15x15 (left panel) and N=138 21x21 (right panel) puzzles solved by IS1 from 2022-2024.*
 
 ###
 **Figure 10** through **Figure 21** are companion figures to the correlation heatmapping shown in **Fig. 9**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colors), scatterplots of select features of interest vs IS1 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
@@ -260,8 +260,8 @@ GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reachin
 
 **<h4>Figure S2. Correlation Heatmapping of IS1 Individual Puzzle Performance vs Grid, Answer and Past-Performance Features by Puzzle Day (15x15 Puzzle Days)**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/f1a71f41-1654-4de2-8554-50b344713715)
-
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/a8da809d-af44-41f8-91a7-0a1ea65c4a81)
+*<h5>N's ranged between 135 and 140 per 15x15 puzzle day*
 
 **<h4>Figure S3. Number of Rebus Squares vs IS1 Solve Time by Puzzle Day**
 
