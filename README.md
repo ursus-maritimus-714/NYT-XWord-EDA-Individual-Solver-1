@@ -105,7 +105,7 @@ Many external variables are likely to have an impact on individual solver perfor
 
 IS1 completed most puzzles during the sample period either in the morning (51.7% between 6-10 AM, with 35.8% in the 7-8 AM hour alone), or in the evening between 6-10 PM (28.5% of all solves). The most notable trend in IS1's data in terms of time of completion was that a disproportionate number of "very fast" solves (>=50% faster than day-specific RPB) took place in the 10 PM hour. Ten of seventy-seven (13%) "very fast" solves took place in the 10 PM hour, but only 32/1120 (2.9%) "very fast" solves took place in all other hours combined. Nonetheless, interpretation of this result is still difficult because puzzle *start* times were not available. Thus, it can't be distinguished with the available data whether IS1 was a better performer at night or simply finished easier puzzles before bedtime and left harder ones for morning completion. To this point, nearly all of the "very fast" 10 PM solves were for new Friday or Saturday puzzles released the evening before at exactly 10 PM. An additional caveat is that all solve times were recorded with respect to the US Eastern Time Zone, and there is no indication for if/when individual puzzles were completed in other time zones.        
 
-**Figure 8. Recent Performance Baseline-Adjusted Solve Times by Hour of Completion**
+**Figure 8. IS1 Recent Performance Baseline-Adjusted Solve Times by Hour of Completion**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/f41c7b82-46b5-41a1-8930-9d923a7ed915)
 
