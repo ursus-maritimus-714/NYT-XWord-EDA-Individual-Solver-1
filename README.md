@@ -3,7 +3,7 @@
 ## Introduction
 
 ### Project Overview
-This summary reports on exploratory data analysis (EDA) of my own (Individual Solver 1; IS1) performance on all puzzles issued during a 3+ year (Oct. 2020 - Feb. 2024) sample of the [New York Times (NYT) crossword puzzle](https://www.nytimes.com/crosswords). Included are visual and statistical descriptions of trends in IS1 solve times across this period, performance relative to the 'Global Median Solver' (GMS; see next section), and the relationship between IS1 performance and a number of variables. These variables included properties of the puzzle grids (e.g., number of answers, number of black squares), clues and answers (e.g., frequency of wordplay in clues, aggregate rarity of answers in a puzzle), environment (e.g., time of day a puzzle was completed), constructor identity, and puzzle day-specific recent past performance prior to a given solve. This EDA led to identification of a set of features that were used as inputs to a [predictive model of IS1 future performance](https://github.com/ursus-maritimus-714/NYT-XWord-Modeling-Individual-Solver-1/blob/main/README.md).
+This summary reports on exploratory data analysis (EDA) of my own (Individual Solver 1; IS1) performance on all puzzles issued during a 3+ year (Oct. 2020 - Mar. 2024) sample of the [New York Times (NYT) crossword puzzle](https://www.nytimes.com/crosswords). Included are visual and statistical descriptions of trends in IS1 solve times across this period, performance relative to the 'Global Median Solver' (GMS; see next section), and the relationship between IS1 performance and a number of variables. These variables included properties of the puzzle grids (e.g., number of answers, number of black squares), clues and answers (e.g., frequency of wordplay in clues, aggregate rarity of answers in a puzzle), environment (e.g., time of day a puzzle was completed), constructor identity, and puzzle day-specific recent past performance prior to a given solve. This EDA led to identification of a set of features that were used as inputs to a [predictive model of IS1 future performance](https://github.com/ursus-maritimus-714/NYT-XWord-Modeling-Individual-Solver-1/blob/main/README.md).
 
 Without access to two specific data sources this project would not have been possible. The first, [XWord Info: New York Times Crossword Answers and Insights](https://www.xwordinfo.com/), was my source for data on the puzzles themselves. This included a number of proprietary metrics pertaining to the grids, answers, clues and constructors. XWord Info has a contract with NYT for access to the raw data underlying these metrics, but I unfortunately do not. Therefore, I will not be able to share raw or processed data that I've acquired from their site. Nonetheless, [Jupyter notebooks](https://jupyter.org/) with all of my Python code for analysis and figure generation can be found [here](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/tree/main/notebooks). The second, [XWStats](https://xwstats.com/), was my source for historical solve time data for both IS1 and the GMS.
 
@@ -17,8 +17,8 @@ GMSTs improved on each puzzle day over the complete set of puzzles (N=2,246) iss
 
 **Figure 1. GMS Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/1e6d9e90-f6ef-4260-8cac-a3d73b1703c0)
-*<h5>GMS Final (as of Feb. 24, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1/assets/90933302/db737756-0001-4c29-8495-85db3a9d2852)
+*<h5>GMS Final (as of Mar. 1, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
 *Sun: 29.0, Mon: 5.7, Tue: 8.1, Wed: 11.9, Thu: 17.6, Fri: 17.7, Sat: 19.1*<br>
 
 ## Results
